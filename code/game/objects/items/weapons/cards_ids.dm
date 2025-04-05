@@ -561,8 +561,8 @@
 	name = "\improper Eridani Private Military Contractor identification card"
 	desc = "A high-tech holobadge, identifying the owner as a contractor from one of the many PMCs from the Eridani Corporate Federation."
 	assignment = "EPMC Asset Protection"
-	icon_state = "pmc_card"
-	overlay_state = "pmc_card"
+	icon_state = "cmbdep"
+	overlay_state = "cmbdep"
 
 /obj/item/card/distress/ap_eridani/update_icon()
 	return
@@ -620,8 +620,8 @@
 /obj/item/card/id/pmc
 	name = "\improper PMCG identification card"
 	desc = "A high-tech holobadge, identifying the owner as a contractor from one of the many PMCs from the Private Military Contracting Group."
-	icon_state = "pmc_card"
-	overlay_state = "pmc_card"
+	icon_state = "cmbdep"
+	overlay_state = "cmbdep"
 
 /obj/item/card/id/pmc/update_icon()
 	return

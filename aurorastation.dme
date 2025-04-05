@@ -890,7 +890,6 @@
 #include "code\game\jobs\faction\bionational.dm"
 #include "code\game\jobs\faction\chigusa.dm"
 #include "code\game\jobs\faction\faction.dm"
-#include "code\game\jobs\faction\hephaestus.dm"
 #include "code\game\jobs\faction\idris.dm"
 #include "code\game\jobs\faction\marshals.dm"
 #include "code\game\jobs\faction\seegson.dm"
