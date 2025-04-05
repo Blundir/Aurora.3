@@ -1,29 +1,20 @@
-/datum/faction/orin_express
-	name = "Orion Express"
+/datum/faction/chigusa
+	name = "Chigusa Corporation"
 	description = {"<p>
-	Founded in 2464, the Orion Express is a corporation designed to handle logistics for the
-	Stellar Corporate Conglomerate in the wake of the Phoron Scarcity and the sudden issues
+	Founded in 2464, the Chigusa Corporation is a corporation designed to handle logistics for the
+	Seegson in the wake of the Phoron Scarcity and the sudden issues
 	the Conglomeration of the megacorporations presented. It consists of its main branch, dedicated
 	to cargo services and transport, but also features a fledgling robotics division, mainly focused
-	on industrial synthetics to aid in its logistics missions. The Orion Express is expected to become an
-	integral part of the Stellar Corporate Conglomerate's future through delivering supplies and merchandise throughout the Orion Spur.
+	on industrial synthetics to aid in its logistics missions. The Chigusa Corporation is expected to become an
+	integral part of the Seegson's future through delivering supplies and merchandise throughout the Orion Spur.
 	</p>"}
-	departments = {"Operations<br>Service"}
+	departments = {"Operations<br>Mining<br>Agriculture"}
 	title_suffix = "Orion"
 
-	allowed_role_types = ORION_ROLES
+	allowed_role_types = CHIGUSA_ROLES
 
 	allowed_species_types = list(
-		/datum/species/human,
-		/datum/species/skrell,
-		/datum/species/machine,
-		/datum/species/unathi,
-		/datum/species/bug = TRUE,
-		/datum/species/bug/type_b = TRUE,
-		/datum/species/bug/type_b/type_bb = TRUE,
-		/datum/species/bug/type_e = TRUE,
-		/datum/species/tajaran,
-		/datum/species/diona
+		/datum/species/human
 	)
 
 
@@ -59,7 +50,7 @@
 	)
 
 /obj/outfit/job/hangar_tech/orion
-	name = "Hangar Technician - Orion Express"
+	name = "Hangar Technician - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/rank/hangar_technician/orion
 	id = /obj/item/card/id/orion
@@ -70,7 +61,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/machinist/orion
-	name = "Machinist - Orion Express"
+	name = "Machinist - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/rank/machinist/orion
 	id = /obj/item/card/id/orion
@@ -81,7 +72,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/mining/orion
-	name = "Shaft Miner - Orion Express"
+	name = "Shaft Miner - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/rank/miner/orion
 	id = /obj/item/card/id/orion
@@ -92,7 +83,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/representative/orion
-	name = "Orion Express Corporate Liaison"
+	name = "Chigusa Corporation Corporate Liaison"
 
 	head = /obj/item/clothing/head/beret/corporate/orion
 	uniform = /obj/item/clothing/under/rank/liaison/orion
@@ -107,7 +98,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/bartender/orion
-	name = "Bartender - Orion Express"
+	name = "Bartender - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/rank/bartender/orion
 	head = /obj/item/clothing/head/flatcap/bartender/orion
@@ -120,7 +111,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/chef/orion
-	name = "Chef - Orion Express"
+	name = "Chef - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/rank/chef/orion
 	suit = /obj/item/clothing/suit/chef_jacket/orion
@@ -133,7 +124,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/hydro/orion
-	name = "Gardener - Orion Express"
+	name = "Gardener - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/rank/hydroponics/orion
 	head = /obj/item/clothing/head/bandana/hydro/orion
@@ -145,7 +136,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/janitor/orion
-	name = "Janitor - Orion Express"
+	name = "Janitor - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/rank/janitor/orion
 	head = /obj/item/clothing/head/softcap/orion_custodian
@@ -157,7 +148,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/librarian/orion
-	name = "Librarian - Orion Express"
+	name = "Librarian - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/librarian/orion
 	id = /obj/item/card/id/orion
@@ -168,14 +159,14 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/librarian/orion/curator
-	name = "Curator - Orion Express"
+	name = "Curator - Chigusa Corporation"
 	jobtype = /datum/job/librarian
 
 	r_pocket = /obj/item/device/price_scanner
 	l_hand = null
 
 /obj/outfit/job/librarian/orion/tech_support
-	name = "Tech Support - Orion Express"
+	name = "Tech Support - Chigusa Corporation"
 	jobtype = /datum/job/librarian
 
 	l_pocket = /obj/item/modular_computer/handheld/preset/generic
@@ -185,7 +176,7 @@
 	wrist = /obj/item/modular_computer/handheld/wristbound/preset/advanced/civilian
 
 /obj/outfit/job/journalist/orion
-	name = "Corporate Reporter - Orion Express"
+	name = "Corporate Reporter - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/librarian/orion
 	id = /obj/item/card/id/orion
@@ -196,7 +187,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/chaplain/orion
-	name = "Chaplain - Orion Express"
+	name = "Chaplain - Chigusa Corporation"
 
 	id = /obj/item/card/id/orion
 
@@ -226,7 +217,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/visitor/orion
-	name = "Off-Duty Crew Member - Orion Express"
+	name = "Off-Duty Crew Member - Chigusa Corporation"
 
 	id = /obj/item/card/id/orion
 
@@ -236,7 +227,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/orion
 
 /obj/outfit/job/hangar_tech/event/orion
-	name = "Hangar Technician - Orion Express"
+	name = "Hangar Technician - Chigusa Corporation"
 
 	uniform = /obj/item/clothing/under/rank/hangar_technician/orion
 	id = /obj/item/card/id/orion

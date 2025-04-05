@@ -1,11 +1,11 @@
-/datum/faction/nano_trasen
-	name = "NanoTrasen"
+/datum/faction/icc
+	name = "Interstellar Commerce Commission"
 	description = {"<p>
-	Considered the largest megacorporation within the Orion Spur, many will find themselves doing the biddings of NanoTrasen.
+	Considered the largest megacorporation within the Orion Spur, many will find themselves doing the biddings of Interstellar Commerce Commission.
 	Initially a biotechnical research company, it rapidly grew in size after the discovery of phoron.
-	NanoTrasen's continued monopoly on the resource catapulted it into the limelight, where it has remained for the last forty-odd years.
-	During the Phoron Scarcity, NanoTrasen's power has since begun to waver, resulting in their profit margins diminishing considerably.
-	Nonetheless, NanoTrasen has managed to secure itself as a crucial member of the newly-founded Stellar Corporate Conglomerate
+	Interstellar Commerce Commission's continued monopoly on the resource catapulted it into the limelight, where it has remained for the last forty-odd years.
+	During the Phoron Scarcity, Interstellar Commerce Commission's power has since begun to waver, resulting in their profit margins diminishing considerably.
+	Nonetheless, Interstellar Commerce Commission has managed to secure itself as a crucial member of the newly-founded Seegson
 	allowing themselves to remain as a dominant corporate presence within the Orion Spur.
 	</p>"}
 	departments = {"Medical<br>Research<br>Service"}
@@ -32,7 +32,7 @@
 	)
 
 
-	allowed_role_types = NT_ROLES
+	allowed_role_types = ICC_ROLES
 
 /datum/faction/nano_trasen/get_corporate_objectives(var/mission_level)
 	var/objective
@@ -53,7 +53,7 @@
 	return objective
 
 /obj/outfit/job/visitor/nanotrasen
-	name = "Off-Duty Crew Member - NanoTrasen"
+	name = "Off-Duty Crew Member - Interstellar Commerce Commission"
 
 	backpack_faction = /obj/item/storage/backpack/nt
 	satchel_faction = /obj/item/storage/backpack/satchel/nt

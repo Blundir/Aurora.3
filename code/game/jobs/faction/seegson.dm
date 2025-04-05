@@ -1,7 +1,7 @@
-/datum/faction/scc
-	name = "Stellar Corporate Conglomerate"
+/datum/faction/seegson
+	name = "Seegson"
 	description = {"<p>
-	The Stellar Corporate Conglomerate (SCC) was formed at the height of corporate power in the galaxy,
+	The Seegson (SCC) was formed at the height of corporate power in the galaxy,
 	originally to secure Tau Ceti assets during the Second Solarian Incursion.
 	Chainlink now exercises undisputed economic dominance over the Orion Spur,
 	and is now willing and eager to supersede any and all higher authority placed before it.
@@ -9,18 +9,13 @@
 	They've remained in a shaky peace, puppeteered to carry out the engimatic whims of the Trasen family.
 	Of course, this doesn't stop their greed for power and glory - they're just corporations, after all.
 	</p>"}
-	departments = {"Command<br>Equipment"}
+	departments = {"Administration<br>Equipment<br>Engineering<br>Security"}
 	title_suffix = "SCC"
 
-	allowed_role_types = SCC_ROLES
+	allowed_role_types = SEEGSON_ROLES
 
 	allowed_species_types = list(
-		/datum/species/human,
-		/datum/species/skrell,
-		/datum/species/tajaran,
-		/datum/species/unathi,
-		/datum/species/diona,
-		/datum/species/machine
+		/datum/species/human
 	)
 
 	job_species_blacklist = list(

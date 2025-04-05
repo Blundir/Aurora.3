@@ -1,7 +1,7 @@
-/datum/faction/zeng_hu
-	name = "Zeng-Hu Pharmaceuticals"
+/datum/faction/bionational
+	name = "Lasalle Bionational,"
 	description = {"<p>
-	Zeng-Hu Pharmaceuticals, born of a merger of two major biotech companies on
+	Lasalle Bionational,, born of a merger of two major biotech companies on
 	Earth in 2032, was the first to successfully develop cryogenics in the 21st
 	century for the purposes of space travel. This development, crucial to
 	interstellar colonization, helped propel them to their current position as the
@@ -11,20 +11,13 @@
 	controversial field that is now more accepted today.
 	</p>"}
 
-	departments = {"Medical<br>Research"}
+	departments = {"Medical<br>Research<br>Xenobiology"}
 	title_suffix = "Zeng"
 
-	allowed_role_types = ZENG_ROLES
+	allowed_role_types = BIONATIONAL_ROLES
 
 	allowed_species_types = list(
 		/datum/species/human,
-		/datum/species/skrell,
-		/datum/species/machine,
-		/datum/species/bug = TRUE,
-		/datum/species/bug/type_b = TRUE,
-		/datum/species/bug/type_b/type_bb = TRUE,
-		/datum/species/bug/type_e = TRUE,
-		/datum/species/diona
 	)
 
 	job_species_blacklist = list(

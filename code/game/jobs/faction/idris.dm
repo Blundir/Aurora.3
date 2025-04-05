@@ -1,5 +1,5 @@
-/datum/faction/idris_incorporated
-	name = "Idris Incorporated"
+/datum/faction/souta
+	name = "Souta Corporation"
 	description = {"<p>
 	The Orion Spur's largest interstellar banking conglomerate, Idris Incorporated
 	is operated by the mysterious Idris family. Idris Incorporated's influence
@@ -12,14 +12,10 @@
 	departments = {"Security<br>Service"}
 	title_suffix = "Idris"
 
-	allowed_role_types = IDRIS_ROLES
+	allowed_role_types = SOUTA_ROLES
 
 	allowed_species_types = list(
 		/datum/species/human,
-		/datum/species/skrell,
-		/datum/species/machine,
-		/datum/species/tajaran,
-		/datum/species/diona
 	)
 
 	job_species_blacklist = list(

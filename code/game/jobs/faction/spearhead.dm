@@ -1,28 +1,20 @@
-/datum/faction/zavodskoi_interstellar
-	name = "Zavodskoi Interstellar"
+/datum/faction/spearhead
+	name = "Spearhead Armory"
 	description = {"<p>
-	The largest weapons producer in human space, Zavodskoi Interstellar initially
+	The largest weapons producer in human space, Spearhead Armory initially
 	found its place with the invention of a militarized voidsuit for use in the Interstellar War.
 	With many lucrative weapon contracts thanks to the Sol Alliance, as well as acquisitions of
 	other major armaments companies, Zavodskoi weapons can be found in the hands of nearly every
 	military force across the Orion Spur. They are the main corporation found in the Empire of
 	Dominia, and are at the forefront of weapons development technology.
 	</p>"}
-	departments = {"Engineering<br>Research<br>Security"}
+	departments = {"Weapons Production<br>Research"}
 	title_suffix = "Zavod"
 
-	allowed_role_types = ZAVOD_ROLES
+	allowed_role_types = SPEARHEAD_ROLES
 
 	allowed_species_types = list(
-		/datum/species/human,
-		/datum/species/skrell,
-		/datum/species/unathi,
-		/datum/species/diona,
-		/datum/species/machine,
-		/datum/species/bug = TRUE,
-		/datum/species/bug/type_b = TRUE,
-		/datum/species/bug/type_b/type_bb = TRUE,
-		/datum/species/bug/type_e = TRUE
+		/datum/species/human
 	)
 
 	job_species_blacklist = list(
@@ -75,7 +67,7 @@
 	)
 
 /obj/outfit/job/officer/zavodskoi
-	name = "Security Officer - Zavodskoi Interstellar"
+	name = "Security Officer - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/security/zavod
 	id = /obj/item/card/id/zavodskoi/sec
@@ -86,7 +78,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/warden/zavodskoi
-	name = "Warden - Zavodskoi Interstellar"
+	name = "Warden - Spearhead Armory"
 
 	head = /obj/item/clothing/head/warden/zavod
 	uniform = /obj/item/clothing/under/rank/warden/zavod
@@ -100,7 +92,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/intern_sec/officer/zavodskoi
-	name = "Security Cadet - Zavodskoi Interstellar"
+	name = "Security Cadet - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/cadet/zavod
 	id = /obj/item/card/id/zavodskoi/sec
@@ -111,7 +103,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/intern_sec/forensics/zavodskoi
-	name = "Investigator Intern - Zavodskoi Interstellar"
+	name = "Investigator Intern - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/cadet/zavod
 	id = /obj/item/card/id/zavodskoi/sec
@@ -122,7 +114,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/forensics/zavodskoi
-	name = "Investigator - Zavodskoi Interstellar"
+	name = "Investigator - Spearhead Armory"
 
 	id = /obj/item/card/id/zavodskoi/sec
 	uniform = /obj/item/clothing/under/det/zavod
@@ -134,7 +126,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/scientist/zavodskoi
-	name = "Scientist - Zavodskoi Interstellar"
+	name = "Scientist - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/scientist/zavod
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/zavodskoi
@@ -147,7 +139,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/scientist/xenobiologist/zavodskoi
-	name = "Xenobiologist - Zavodskoi Interstellar"
+	name = "Xenobiologist - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/scientist/xenobio/zavod
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/zavodskoi
@@ -160,7 +152,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/scientist/xenobotanist/zavodskoi
-	name = "Xenobotanist - Zavodskoi Interstellar"
+	name = "Xenobotanist - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/scientist/botany/zavod
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/zavodskoi
@@ -168,7 +160,7 @@
 	shoes = /obj/item/clothing/shoes/sneakers/medsci/zavod
 
 /obj/outfit/job/scientist/xenoarchaeologist/zavodskoi
-	name = "Xenoarchaeologist - Zavodskoi Interstellar"
+	name = "Xenoarchaeologist - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/scientist/xenoarchaeologist/zavod
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/zavodskoi
@@ -181,7 +173,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/scientist/anomalist/zavodskoi
-	name = "Anomalist - Zavodskoi Interstellar"
+	name = "Anomalist - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/scientist/anomalist/zavod
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/zavodskoi
@@ -194,7 +186,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/intern_sci/zavodskoi
-	name = "Research Intern - Zavodskoi Interstellar"
+	name = "Research Intern - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/scientist/intern/zavod
 	id = /obj/item/card/id/zavodskoi
@@ -206,7 +198,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/engineer/zavodskoi
-	name = "Engineer - Zavodskoi Interstellar"
+	name = "Engineer - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/engineer/zavod
 	head = /obj/item/clothing/head/hardhat/red
@@ -218,7 +210,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/atmos/zavodskoi
-	name = "Atmospheric Technician - Zavodskoi Interstellar"
+	name = "Atmospheric Technician - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/atmospheric_technician/zavod
 	head = /obj/item/clothing/head/hardhat/red
@@ -230,7 +222,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/intern_eng/zavodskoi
-	name = "Engineering Apprentice - Zavodskoi Interstellar"
+	name = "Engineering Apprentice - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/engineer/apprentice/zavod
 	head = /obj/item/clothing/head/beret/corporate/zavod
@@ -242,7 +234,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/intern_atmos/zavodskoi
-	name = "Atmospherics Apprentice - Zavodskoi Interstellar"
+	name = "Atmospherics Apprentice - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/engineer/apprentice/zavod
 	head = /obj/item/clothing/head/beret/corporate/zavod
@@ -254,7 +246,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/representative/zavodskoi
-	name = "Zavodskoi Interstellar Corporate Liaison"
+	name = "Spearhead Armory Corporate Liaison"
 
 	head = /obj/item/clothing/head/beret/corporate/zavod
 	uniform = /obj/item/clothing/under/rank/liaison/zavod
@@ -275,7 +267,7 @@
 	)
 
 /obj/outfit/job/journalist/zavodskoi
-	name = "Corporate Reporter - Zavodskoi Interstellar"
+	name = "Corporate Reporter - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/librarian/zavod
 	id = /obj/item/card/id/zavodskoi
@@ -286,7 +278,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/assistant/zavodskoi
-	name = "Assistant - Zavodskoi Interstellar"
+	name = "Assistant - Spearhead Armory"
 
 	id = /obj/item/card/id/zavodskoi
 
@@ -296,7 +288,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/assistant/tech_assistant/zavodskoi
-	name = "Technical Assistant - Zavodskoi Interstellar"
+	name = "Technical Assistant - Spearhead Armory"
 
 	id = /obj/item/card/id/zavodskoi
 
@@ -306,7 +298,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/assistant/lab_assistant/zavodskoi
-	name = "Lab Assistant - Zavodskoi Interstellar"
+	name = "Lab Assistant - Spearhead Armory"
 
 	id = /obj/item/card/id/zavodskoi
 
@@ -316,7 +308,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/visitor/zavodskoi
-	name = "Off-Duty Crew Member - Zavodskoi Interstellar"
+	name = "Off-Duty Crew Member - Spearhead Armory"
 
 	id = /obj/item/card/id/zavodskoi
 
@@ -326,7 +318,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/officer/event/zavodskoi
-	name = "Security Personnel - Zavodskoi Interstellar"
+	name = "Security Personnel - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/security/zavod
 	id = /obj/item/card/id/zavodskoi/sec
@@ -337,7 +329,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/scientist/event/zavodskoi
-	name = "Research Personnel - Zavodskoi Interstellar"
+	name = "Research Personnel - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/scientist/zavod
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/zavodskoi
@@ -350,7 +342,7 @@
 	messengerbag_faction = /obj/item/storage/backpack/messenger/zavod
 
 /obj/outfit/job/engineer/event/zavodskoi
-	name = "Engineering Personnel - Zavodskoi Interstellar"
+	name = "Engineering Personnel - Spearhead Armory"
 
 	uniform = /obj/item/clothing/under/rank/engineer/zavod
 	head = /obj/item/clothing/head/hardhat/red

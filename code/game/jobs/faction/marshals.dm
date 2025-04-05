@@ -1,28 +1,21 @@
-/datum/faction/pmc
-	name = "Private Military Contracting Group"
+/datum/faction/marshals
+	name = "Office of the Colonial Marshals"
 	description = {"<p>
-	The Private Military Contracting Group is a coalition of security and medical contractors;
-	borne from the necessity of protecting the Stellar Corporate Conglomerate and its holdings.
+	The Office of the Colonial Marshals is a coalition of security and medical contractors;
+	borne from the necessity of protecting the Seegson and its holdings.
 	Following the ever-growing corporate empire, mercenaries and contractors from all across the spur are deployed accordingly;
 	from mere office buildings to outposts in the Corporate Reconstruction Zone.
-	Unlike the other members of the Corporate Conglomerate, the Private Military Contracting Group has few employees of its own.
+	Unlike the other members of the Corporate Conglomerate, the Office of the Colonial Marshals has few employees of its own.
 	Only some liaisons and bureaucrats work behind the scenes to hire and manage the contractors;
 	the rest of its members are part of several organizations contracted to supply the PMCG.
 	</p>"}
-	departments = {"Medical<br>Security"}
-	title_suffix = "PMCG"
+	departments = {"Security"}
+	title_suffix = "OCM"
 
-	allowed_role_types = PMC_ROLES
+	allowed_role_types = MARSHAL_ROLES
 
 	allowed_species_types = list(
-		/datum/species/human,
-		/datum/species/skrell,
-		/datum/species/tajaran,
-		/datum/species/unathi,
-		/datum/species/bug = TRUE,
-		/datum/species/bug/type_b = TRUE,
-		/datum/species/bug/type_b/type_bb = TRUE,
-		/datum/species/machine
+		/datum/species/human
 	)
 
 	job_species_blacklist = list(

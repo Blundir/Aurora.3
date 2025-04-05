@@ -12,3 +12,7 @@
 	allowed_role_types = INDEP_ROLES
 
 	title_suffix = "INDEP"
+
+	allowed_species_types = list(
+		/datum/species/human,
+	)
