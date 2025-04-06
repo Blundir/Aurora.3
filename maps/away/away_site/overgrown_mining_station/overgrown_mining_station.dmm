@@ -1760,7 +1760,7 @@
 /area/overgrown_mining_station)
 "LU" = (
 /obj/structure/sign/poster{
-	icon_state = "bsposter52"
+	icon_state = "poster52"
 	},
 /turf/simulated/wall,
 /area/overgrown_mining_station)

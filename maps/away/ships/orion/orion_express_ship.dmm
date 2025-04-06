@@ -2790,7 +2790,7 @@
 /area/ship/orion/cargo)
 "jsa" = (
 /obj/structure/sign/poster{
-	icon_state = "bsposter32";
+	icon_state = "poster32";
 	pixel_x = 32
 	},
 /obj/structure/table/rack,

@@ -162,7 +162,7 @@
 /area/wrecked_nt_ship)
 "bV" = (
 /obj/structure/sign/poster{
-	icon_state = "bsposter3"
+	icon_state = "poster3"
 	},
 /turf/simulated/wall/r_wall,
 /area/wrecked_nt_ship)
@@ -319,7 +319,7 @@
 /area/wrecked_nt_ship/exterior)
 "gj" = (
 /obj/structure/sign/poster{
-	icon_state = "bsposter10"
+	icon_state = "poster10"
 	},
 /turf/simulated/wall/r_wall,
 /area/wrecked_nt_ship)
@@ -2098,7 +2098,7 @@
 /area/wrecked_nt_ship)
 "Xl" = (
 /obj/structure/sign/poster{
-	icon_state = "bsposter52"
+	icon_state = "poster52"
 	},
 /turf/simulated/wall/r_wall,
 /area/wrecked_nt_ship)

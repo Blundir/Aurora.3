@@ -1,11 +1,13 @@
 /obj/structure/closet/wardrobe
 	name = "wardrobe"
 	desc = "It's a storage unit for standard-issue attire."
-	icon_door = "blue"
+	icon_state = "white_blue"
+	icon_door = "white_blue"
 
 /obj/structure/closet/wardrobe/red
 	name = "security wardrobe"
-	icon_door = "blue"
+	icon_state = "white_blue"
+	icon_door = "white_blue"
 
 /obj/structure/closet/wardrobe/red/fill()
 	..()
@@ -43,7 +45,8 @@
 
 /obj/structure/closet/wardrobe/pink
 	name = "pink wardrobe"
-	icon_door = "pink"
+	icon_state = "white_pink"
+	icon_door = "white_pink"
 
 /obj/structure/closet/wardrobe/pink/fill()
 	..()
@@ -57,7 +60,8 @@
 
 /obj/structure/closet/wardrobe/black
 	name = "black wardrobe"
-	icon_door = "black"
+	icon_state = "white_black"
+	icon_door = "white_black"
 
 /obj/structure/closet/wardrobe/black/fill()
 	..()
@@ -76,7 +80,8 @@
 /obj/structure/closet/wardrobe/chaplain_black
 	name = "chapel wardrobe"
 	desc = "It's a storage unit for approved religious attire."
-	icon_door = "black"
+	icon_state = "white_black"
+	icon_door = "white_black"
 
 /obj/structure/closet/wardrobe/chaplain_black/fill()
 	..()
@@ -97,7 +102,8 @@
 
 /obj/structure/closet/wardrobe/green
 	name = "green wardrobe"
-	icon_door = "green"
+	icon_state = "white_green"
+	icon_door = "white_green"
 
 /obj/structure/closet/wardrobe/green/fill()
 	..()
@@ -111,7 +117,8 @@
 
 /obj/structure/closet/wardrobe/xenos
 	name = "xenos wardrobe"
-	icon_door = "green"
+	icon_state = "white_green"
+	icon_door = "white_green"
 
 /obj/structure/closet/wardrobe/xenos/fill()
 	..()
@@ -128,7 +135,8 @@
 /obj/structure/closet/wardrobe/orange
 	name = "prison wardrobe"
 	desc = "It's a storage unit for regulation prisoner attire."
-	icon_door = "orange"
+	icon_state = "white_orange"
+	icon_door = "white_orange"
 
 /obj/structure/closet/wardrobe/orange/fill()
 	..()
@@ -143,7 +151,8 @@
 
 /obj/structure/closet/wardrobe/yellow
 	name = "yellow wardrobe"
-	icon_door = "yellow"
+	icon_state = "white_yellow"
+	icon_door = "white_yellow"
 
 /obj/structure/closet/wardrobe/yellow/fill()
 	..()
@@ -158,7 +167,8 @@
 
 /obj/structure/closet/wardrobe/atmospherics_yellow
 	name = "atmospherics wardrobe"
-	icon_door = "yellow"
+	icon_state = "white_yellow"
+	icon_door = "white_yellow"
 
 /obj/structure/closet/wardrobe/atmospherics_yellow/fill()
 	..()
@@ -183,7 +193,8 @@
 
 /obj/structure/closet/wardrobe/engineering_yellow
 	name = "engineering wardrobe"
-	icon_door = "yellow"
+	icon_state = "white_yellow"
+	icon_door = "white_yellow"
 
 /obj/structure/closet/wardrobe/engineering_yellow/fill()
 	..()
@@ -212,6 +223,7 @@
 
 /obj/structure/closet/wardrobe/white
 	name = "white wardrobe"
+	icon_state = "white"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/white/fill()
@@ -227,6 +239,7 @@
 
 /obj/structure/closet/wardrobe/pjs
 	name = "pajama wardrobe"
+	icon_state = "white"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/pjs/fill()
@@ -244,6 +257,7 @@
 
 /obj/structure/closet/wardrobe/science_white
 	name = "science wardrobe"
+	icon_state = "white"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/toxins_white/fill()
@@ -267,6 +281,7 @@
 
 /obj/structure/closet/wardrobe/pharmacy_white
 	name = "pharmacy wardrobe"
+	icon_state = "white"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/pharmacy_white/fill()
@@ -285,6 +300,7 @@
 
 /obj/structure/closet/wardrobe/medic_white
 	name = "medical wardrobe"
+	icon_state = "white"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/medic_white/fill()
@@ -307,7 +323,8 @@
 
 /obj/structure/closet/wardrobe/grey
 	name = "grey wardrobe"
-	icon_door = "grey"
+	icon_state = "white_grey"
+	icon_door = "white_grey"
 
 /obj/structure/closet/wardrobe/grey/fill()
 	..()
@@ -328,7 +345,8 @@
 
 /obj/structure/closet/wardrobe/mixed
 	name = "mixed wardrobe"
-	icon_door = "mixed"
+	icon_state = "white_mixed"
+	icon_door = "white_mixed"
 
 /obj/structure/closet/wardrobe/mixed/fill()
 	..()
@@ -366,7 +384,8 @@
 
 /obj/structure/closet/wardrobe/suit
 	name = "suit locker"
-	icon_door = "mixed"
+	icon_state = "white_mixed"
+	icon_door = "white_mixed"
 
 /obj/structure/closet/wardrobe/suit/fill()
 	..()

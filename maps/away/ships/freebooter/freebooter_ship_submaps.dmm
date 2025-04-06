@@ -1319,7 +1319,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/trash/broken_electronics,
 /obj/structure/sign/poster{
-	icon_state = "bsposter65";
+	icon_state = "poster65";
 	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/dark,

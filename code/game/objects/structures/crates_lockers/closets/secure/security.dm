@@ -51,7 +51,7 @@
 /obj/structure/closet/secure_closet/xo
 	name = "executive officer's locker"
 	req_access = list(ACCESS_HOP)
-	icon_state = "sec"
+	icon_state = "cap"
 	icon_door = "hop"
 
 /obj/structure/closet/secure_closet/xo/fill()
@@ -81,7 +81,7 @@
 /obj/structure/closet/secure_closet/xo2
 	name = "executive officer's attire"
 	req_access = list(ACCESS_HOP)
-	icon_state = "sec"
+	icon_state = "cap"
 	icon_door = "hop"
 
 /obj/structure/closet/secure_closet/xo2/fill()
@@ -216,7 +216,7 @@
 /obj/structure/closet/secure_closet/security_cadet
 	name = "security cadet's locker"
 	req_access = list(ACCESS_SECURITY)
-	icon_state = "sec"
+	icon_state = "seccadet"
 	icon_door = "seccadet"
 
 /obj/structure/closet/secure_closet/security_cadet/fill()
@@ -361,8 +361,8 @@
 /obj/structure/closet/secure_closet/bridge_crew
 	name = "bridge crew's locker"
 	req_access = list(ACCESS_BRIDGE_CREW)
-	icon_state = "sec"
-	icon_door = "hop"
+	icon_state = "bridge_crew"
+	icon_door = "bridge_crew"
 
 /obj/structure/closet/secure_closet/bridge_crew/fill()
 	..()
