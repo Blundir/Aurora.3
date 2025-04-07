@@ -434,7 +434,6 @@
 	icon_state = "cola_machine"
 	icon_vend = "cola_machine-vend"
 	icon_deny = "cola_machine-deny"
-	icon_screen = "cola_machine-screen"
 	light_mask = "cola_machine-lightmask"
 	product_slogans = "Idris Re-Fresh: the more expensive the place, the more of us you'll seee!"
 	product_ads = "Refreshing!;Hope you're thirsty!;Thirsty? Why not cola?;Please, have a drink!;Drink up!;The best drinks in space."
@@ -525,16 +524,16 @@
 	icon_vend = "cigs-vend"
 	vend_id = "smokes"
 	products = list(
-		/obj/item/storage/box/fancy/cigarettes/rugged = 6,
+		/obj/item/storage/box/fancy/cigarettes/american_spirit = 6,
 		/obj/item/storage/box/fancy/cigarettes = 8,
 		/obj/item/storage/box/fancy/cigarettes/dromedaryco = 5,
-		/obj/item/storage/box/fancy/cigarettes/nicotine = 3,
+		/obj/item/storage/box/fancy/cigarettes/koorlander = 3,
 		/obj/item/storage/box/fancy/cigarettes/pra = 6,
 		/obj/item/storage/box/fancy/cigarettes/dpra = 6,
 		/obj/item/storage/box/fancy/cigarettes/nka = 6,
 		/obj/item/storage/box/fancy/cigarettes/federation = 3,
 		/obj/item/storage/box/fancy/cigarettes/dyn = 3,
-		/obj/item/storage/box/fancy/cigarettes/oracle = 3,
+		/obj/item/storage/box/fancy/cigarettes/lady_fingers = 3,
 		/obj/item/storage/chewables/rollable = 8,
 		/obj/item/storage/chewables/rollable/unathi = 6,
 		/obj/item/storage/chewables/rollable/fine = 5,
@@ -565,7 +564,7 @@
 	)
 	contraband = list(
 		/obj/item/storage/box/fancy/cigarettes/blank = 5,
-		/obj/item/storage/box/fancy/cigarettes/acmeco = 5,
+		/obj/item/storage/box/fancy/cigarettes/ace = 5,
 		/obj/item/clothing/mask/smokable/cigarette/cigar/sausage = 3
 	)
 	premium = list(
@@ -573,16 +572,16 @@
 		/obj/item/storage/box/fancy/cigarettes/cigar = 5
 	)
 	prices = list(
-		/obj/item/storage/box/fancy/cigarettes/rugged = 67,
+		/obj/item/storage/box/fancy/cigarettes/american_spirit = 67,
 		/obj/item/storage/box/fancy/cigarettes = 76,
 		/obj/item/storage/box/fancy/cigarettes/dromedaryco = 82,
-		/obj/item/storage/box/fancy/cigarettes/nicotine = 89,
+		/obj/item/storage/box/fancy/cigarettes/koorlander = 89,
 		/obj/item/storage/box/fancy/cigarettes/pra = 79,
 		/obj/item/storage/box/fancy/cigarettes/dpra = 84,
 		/obj/item/storage/box/fancy/cigarettes/nka = 74,
 		/obj/item/storage/box/fancy/cigarettes/federation = 93,
 		/obj/item/storage/box/fancy/cigarettes/dyn = 84,
-		/obj/item/storage/box/fancy/cigarettes/oracle = 84,
+		/obj/item/storage/box/fancy/cigarettes/lady_fingers = 84,
 		/obj/item/storage/chewables/rollable = 63,
 		/obj/item/storage/chewables/rollable/unathi = 65,
 		/obj/item/storage/chewables/rollable/fine = 69,
@@ -619,11 +618,11 @@
 	prices = list()
 	products = list(
 		/obj/item/storage/box/fancy/cigarettes = 10,
-		/obj/item/storage/box/fancy/cigarettes/oracle = 10,
+		/obj/item/storage/box/fancy/cigarettes/lady_fingers = 10,
 		/obj/item/storage/box/fancy/matches = 10,
 		/obj/item/flame/lighter/random = 4,
 		/obj/item/storage/box/fancy/cigarettes/cigar = 5,
-		/obj/item/storage/box/fancy/cigarettes/acmeco = 5
+		/obj/item/storage/box/fancy/cigarettes/ace = 5
 	)
 
 /obj/machinery/vending/cigarette/hacked

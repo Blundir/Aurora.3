@@ -5271,7 +5271,7 @@
 /area/kataphract_chapter/hull)
 "CY" = (
 /obj/structure/table/wood,
-/obj/item/storage/box/fancy/cigarettes/rugged,
+/obj/item/storage/box/fancy/cigarettes/american_spirit,
 /obj/item/flame/lighter/random{
 	pixel_y = 8;
 	pixel_x = 6

@@ -127,7 +127,7 @@
 	name = "\improper MegaSeed Storage"
 	desc = "When you need seeds fast!"
 	icon = 'icons/obj/vending.dmi'
-	icon_state = "nutrimat"
+	icon_state = "seeds"
 	opacity = TRUE
 	contents_path = null
 	accepted_items = list(/obj/item/seeds)

@@ -55,8 +55,8 @@
 /area/konyang_pirate_moonshine)
 "n" = (
 /obj/structure/closet/cabinet,
-/obj/item/storage/box/fancy/cigarettes/rugged,
-/obj/item/storage/box/fancy/cigarettes/rugged,
+/obj/item/storage/box/fancy/cigarettes/american_spirit,
+/obj/item/storage/box/fancy/cigarettes/american_spirit,
 /obj/item/flame/lighter/random,
 /obj/item/clothing/accessory/holster/armpit/brown,
 /obj/item/clothing/under/konyang/pirate/tanktop,

@@ -6003,13 +6003,13 @@
 /area/space)
 "EP" = (
 /obj/structure/table/wood,
-/obj/item/storage/box/fancy/cigarettes/oracle{
+/obj/item/storage/box/fancy/cigarettes/lady_fingers{
 	pixel_x = 9
 	},
 /obj/item/storage/box/fancy/cigarettes/nka{
 	pixel_y = 1
 	},
-/obj/item/storage/box/fancy/cigarettes/nicotine{
+/obj/item/storage/box/fancy/cigarettes/koorlander{
 	pixel_x = -8
 	},
 /obj/item/storage/box/fancy/cigarettes/wulu{

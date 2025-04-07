@@ -120,11 +120,11 @@
 /obj/item/storage/internal/helmet
 	var/list/helmet_storage_types = list(
 		/obj/item/storage/box/fancy/cigarettes = HELMET_GARB_PASS_ICON,
-		/obj/item/storage/box/fancy/cigarettes/acmeco = HELMET_GARB_PASS_ICON,
+		/obj/item/storage/box/fancy/cigarettes/ace = HELMET_GARB_PASS_ICON,
 		/obj/item/storage/box/fancy/cigarettes/blank = HELMET_GARB_PASS_ICON,
 		/obj/item/storage/box/fancy/cigarettes/dromedaryco = HELMET_GARB_PASS_ICON,
-		/obj/item/storage/box/fancy/cigarettes/nicotine = HELMET_GARB_PASS_ICON,
-		/obj/item/storage/box/fancy/cigarettes/rugged = HELMET_GARB_PASS_ICON,
+		/obj/item/storage/box/fancy/cigarettes/koorlander = HELMET_GARB_PASS_ICON,
+		/obj/item/storage/box/fancy/cigarettes/american_spirit = HELMET_GARB_PASS_ICON,
 		/obj/item/storage/box/fancy/cigarettes/pra = HELMET_GARB_PASS_ICON,
 		/obj/item/storage/box/fancy/cigarettes/dpra = HELMET_GARB_PASS_ICON,
 		/obj/item/storage/box/fancy/cigarettes/nka = HELMET_GARB_PASS_ICON,

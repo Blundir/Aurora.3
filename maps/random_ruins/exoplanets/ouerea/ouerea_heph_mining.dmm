@@ -548,7 +548,7 @@
 "Ji" = (
 /obj/structure/table/wood,
 /obj/item/device/radio/phone,
-/obj/item/storage/box/fancy/cigarettes/acmeco{
+/obj/item/storage/box/fancy/cigarettes/ace{
 	pixel_y = 16;
 	pixel_x = 7
 	},

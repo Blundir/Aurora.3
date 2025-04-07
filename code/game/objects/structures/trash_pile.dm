@@ -141,7 +141,7 @@
 		/obj/item/clothing/suit/storage/hooded/wintercoat/hoodie/short = 3,
 		/obj/item/clothing/suit/storage/hooded/wintercoat/hoodie/sleeveless = 3,
 		/obj/item/storage/box/fancy/cigarettes = 3,
-		/obj/item/storage/box/fancy/cigarettes/acmeco = 3,
+		/obj/item/storage/box/fancy/cigarettes/ace = 3,
 		/obj/item/storage/box/fancy/cigarettes/blank = 3,
 		/obj/item/device/radio/headset = 3,
 		/obj/item/camera_assembly = 3,

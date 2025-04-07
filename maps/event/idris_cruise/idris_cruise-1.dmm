@@ -1210,7 +1210,7 @@
 /obj/item/flame/lighter{
 	pixel_x = -5
 	},
-/obj/item/storage/box/fancy/cigarettes/nicotine{
+/obj/item/storage/box/fancy/cigarettes/koorlander{
 	pixel_x = 5
 	},
 /turf/unsimulated/floor{
@@ -7734,7 +7734,7 @@
 /obj/item/flame/lighter{
 	pixel_x = -5
 	},
-/obj/item/storage/box/fancy/cigarettes/nicotine{
+/obj/item/storage/box/fancy/cigarettes/koorlander{
 	pixel_x = 5
 	},
 /obj/item/material/ashtray/bronze{

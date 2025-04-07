@@ -302,7 +302,7 @@
 /area/wrecked_nt_ship)
 "fC" = (
 /obj/structure/table/reinforced/steel,
-/obj/item/storage/box/fancy/cigarettes/rugged,
+/obj/item/storage/box/fancy/cigarettes/american_spirit,
 /obj/item/gun/energy/tesla,
 /turf/simulated/floor/tiled/steel/airless,
 /area/wrecked_nt_ship)

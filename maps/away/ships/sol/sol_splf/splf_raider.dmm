@@ -1847,7 +1847,7 @@
 	pixel_x = -6;
 	pixel_y = 3
 	},
-/obj/item/storage/box/fancy/cigarettes/rugged{
+/obj/item/storage/box/fancy/cigarettes/american_spirit{
 	pixel_x = 7;
 	pixel_y = 10
 	},

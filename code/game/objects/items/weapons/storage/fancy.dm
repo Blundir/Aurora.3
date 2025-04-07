@@ -283,9 +283,9 @@
 //CIG PACK//
 ////////////
 /obj/item/storage/box/fancy/cigarettes
-	name = "Trans-Stellar Duty Frees cigarette packet"
-	desc = "A ubiquitous brand of cigarettes, found in the facilities of every major spacefaring corporation in the universe. As mild and flavorless as it gets."
-	desc_info = "You can put a cigarette directly in your mouth by selecting the mouth region and clicking on yourself with a cigarette packet in hand. "
+	name = "\improper Emerald Green Packet"
+	desc = "They remind you of a gross, tar-filled version of Ireland. These cheap cigarettes are Weyland-Yutani's entry into the general market."
+	desc_info = "You can put a cigarette directly in your mouth by selecting the mouth region and clicking on yourself with a cigarette packet in hand."
 	icon = 'icons/obj/cigs_lighters.dmi'
 	icon_state = "cigpacket"
 	item_state = "cigpacket"
@@ -302,7 +302,7 @@
 	w_class = WEIGHT_CLASS_TINY
 	throwforce = 2
 	slot_flags = SLOT_BELT
-	storage_slots = 6
+	storage_slots = 20
 	can_hold = list(/obj/item/clothing/mask/smokable/cigarette, /obj/item/flame/lighter, /obj/item/trash/cigbutt)
 	cant_hold = list(/obj/item/clothing/mask/smokable/cigarette/cigar) // prevents cigars from being put in regular cigarettes packs, because thats kind of silly
 	var/cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette
@@ -371,11 +371,11 @@
 
 // get it? A - AcmeCo, B - Blank, C - Cigar, D - DromedaryCo. How convenient is that? - Wezzy
 
-/obj/item/storage/box/fancy/cigarettes/acmeco
-	name = "\improper AcmeCo cigarette packet"
-	desc = "For those who somehow want to obtain the record for the most amount of cancerous tumors."
-	icon_state = "Apacket"
-	item_state = "Apacket"
+/obj/item/storage/box/fancy/cigarettes/ace
+	name = "\improper Arcturian Ace packet"
+	desc = "An entry level brand of cigarettes with a bright blue packaging. You're guessing these aren't really good for you, but it doesn't matter when it's Arcturian baby!"
+	icon_state = "aapacket"
+	item_state = "aapacket"
 	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/acmeco
 
 /obj/item/storage/box/fancy/cigarettes/blank
@@ -404,32 +404,32 @@
 /obj/item/storage/box/fancy/cigarettes/dromedaryco
 	name = "\improper DromedaryCo cigarette packet"
 	desc = "A label on the packaging reads, \"Wouldn't a slow death make a change?\""
-	icon_state = "Dpacket"
-	item_state = "Dpacket"
+	icon_state = "bpacket"
+	item_state = "bpacket"
 	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/dromedaryco
 
-/obj/item/storage/box/fancy/cigarettes/nicotine
-	name = "\improper Nico-Tine cigarette packet"
-	desc = "An Eridani marketing triumph - the jingle still torments people to this day."
-	icon_state = "Epacket"
-	item_state = "Epacket"
+/obj/item/storage/box/fancy/cigarettes/koorlander
+	name = "\improper Koorlander Gold packet"
+	desc = "Lovingly machine-rolled for YOUR pleasure. For when you want to look cool and the risk of a slow horrible death isn't really a factor."
+	icon_state = "kpacket"
+	item_state = "kpacket"
 	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/nicotine
 
-/obj/item/storage/box/fancy/cigarettes/rugged
-	name = "\improper Laissez-Faires cigarette packet"
-	desc = "Rumored to have outlived its original purpose as part of an Idris money laundering scheme."
-	icon_state = "Fpacket"
-	item_state = "Fpacket"
+/obj/item/storage/box/fancy/cigarettes/american_spirit
+	name = "\improper Turquoise American Spirit Packet"
+	desc = "A pack of turquoise American Spirit cigarettes."
+	icon_state = "naspacket"
+	item_state = "naspacket"
 	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/rugged
 
 /obj/item/storage/box/fancy/cigarettes/cigar/prank
 	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/cigar/prank
 
-/obj/item/storage/box/fancy/cigarettes/oracle
-	name = "\improper Natural Vysokan Soothsayer oracle cigarette packet"
-	desc = "Featuring an illustration of a soothsayer from Vysoka on its packaging, these cigarettes are advertised as containing oracle instead of the normal tobacco. A warning box stating \"These oracle cigarettes are not healthier than tobacco alternatives\" appears to have been haphazardly placed on the packet."
-	icon_state = "Opacket"
-	item_state = "Fpacket"
+/obj/item/storage/box/fancy/cigarettes/lady_fingers
+	name = "\improper Lady Fingers packet"
+	desc = "These intensely strong unfiltered menthol cigarettes don't seem very ladylike. They don't seem very fingerlike for that matter, either. Smoking may kill, but poor branding is almost as bad."
+	icon_state = "lfpacket"
+	item_state = "lfpacket"
 	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/oracle
 
 /obj/item/storage/box/fancy/cigarettes/case

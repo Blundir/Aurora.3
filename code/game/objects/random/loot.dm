@@ -124,7 +124,7 @@
 		/obj/item/storage/box/smokebombs = 0.1,
 		/obj/item/storage/box/syringes = 0.3,
 		/obj/item/storage/box/fancy/cigarettes = 1.2,
-		/obj/item/storage/box/fancy/cigarettes/acmeco = 0.3,
+		/obj/item/storage/box/fancy/cigarettes/ace = 0.3,
 		/obj/item/storage/box/fancy/cigarettes/blank = 1,
 		/obj/item/storage/box/fancy/cigarettes/dromedaryco = 0.8,
 		/obj/item/storage/box/fancy/crayons = 0.5,
