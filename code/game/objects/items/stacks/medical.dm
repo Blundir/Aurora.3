@@ -254,7 +254,6 @@ Contains:
 	origin_tech = list(TECH_BIO = 1)
 	apply_sounds = /singleton/sound_category/rip_sound
 	applied_sounds = 'sound/items/advkit.ogg'
-	automatic_charge_overlays = TRUE
 
 /obj/item/stack/medical/advanced/bruise_pack/full/Initialize()
 	. = ..()
@@ -330,7 +329,6 @@ Contains:
 	origin_tech = list(TECH_BIO = 1)
 	apply_sounds = /singleton/sound_category/ointment_sound
 	applied_sounds = 'sound/items/advkit.ogg'
-	automatic_charge_overlays = TRUE
 
 /obj/item/stack/medical/advanced/ointment/full/Initialize()
 	. = ..()

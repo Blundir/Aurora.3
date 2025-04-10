@@ -394,9 +394,9 @@
 /obj/item/storage/box/flashbangs
 	name = "box of flashbangs"
 	desc = "A box containing 7 antipersonnel flashbang grenades.<br> WARNING: These devices are extremely dangerous and can cause blindness or deafness in repeated use."
-	icon_state = "secbox"
-	item_state = "secbox"
-	illustration = "flashbang"
+	icon_state = "flashbang"
+	item_state = "flashbang"
+	illustration = ""
 	starts_with = list(/obj/item/grenade/flashbang = 7)
 
 /obj/item/storage/box/stingers
@@ -475,9 +475,9 @@
 /obj/item/storage/box/emps
 	name = "box of emp grenades"
 	desc = "A box containing 5 military grade EMP grenades.<br> WARNING: Do not use near unshielded electronics or biomechanical augmentations, death or permanent paralysis may occur."
-	icon_state = "secbox"
-	item_state = "secbox"
-	illustration = "emp"
+	icon_state = "emp"
+	item_state = "emp"
+	illustration = ""
 	starts_with = list(/obj/item/grenade/empgrenade = 5)
 
 /obj/item/storage/box/smokes
