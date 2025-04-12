@@ -373,7 +373,6 @@
 	if(failing)
 		ClearOverlays()
 		AddOverlays("smes-crit")
-		AddOverlays("smes-crit_screen")
 	else
 		..()
 

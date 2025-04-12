@@ -187,7 +187,7 @@
 	color = COLOR_BLUE
 
 /obj/item/handcuffs/cable/green
-	color = COLOR_GREEN
+	color = COLOR_BLEAK_GREEN
 
 /obj/item/handcuffs/cable/green/vines
 	name = "vine bindings"
