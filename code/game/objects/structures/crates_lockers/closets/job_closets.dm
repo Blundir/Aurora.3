@@ -11,7 +11,8 @@
 /obj/structure/closet/gmcloset
 	name = "formal closet"
 	desc = "It's a storage unit for formal clothing."
-	icon_door = "black"
+	icon_state = "white"
+	icon_door = "white_black"
 
 /obj/structure/closet/gmcloset/fill()
 	new /obj/item/clothing/head/that(src)
@@ -38,7 +39,8 @@
 /obj/structure/closet/chefcloset
 	name = "chef's closet"
 	desc = "It's a storage unit for foodservice garments."
-	icon_door = "black"
+	icon_state = "white"
+	icon_door = "white_black"
 
 /obj/structure/closet/chefcloset/fill()
 	new /obj/item/clothing/under/waiter(src)

@@ -408,15 +408,11 @@
 	name = "tool crate"
 	desc = "It's a crate for storing tools."
 	icon_state = "eng_tool"
-	icon_door_override = TRUE
-	icon_door = "eng"
 
 /obj/structure/closet/crate/rad
 	name = "radioactive gear crate"
 	desc = "A crate with a radiation sign on it."
 	icon_state = "eng_rad"
-	icon_door_override = TRUE
-	icon_door = "eng"
 
 /obj/structure/closet/crate/rad/gear/fill()
 	new /obj/item/clothing/suit/radiation(src)
@@ -432,15 +428,11 @@
 	name = "electrical supplies crate"
 	desc = "It's a crate for storing electrical equipment."
 	icon_state = "eng_elec"
-	icon_door_override = TRUE
-	icon_door = "eng"
 
 /obj/structure/closet/crate/weld
 	name = "welding supplies crate"
 	desc = "It's a crate for storing welding tools."
 	icon_state = "eng_weld"
-	icon_door_override = TRUE
-	icon_door = "eng"
 
 /obj/structure/closet/crate/secure/aimodules
 	name = "AI modules crate"
