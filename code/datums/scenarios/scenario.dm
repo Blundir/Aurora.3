@@ -15,7 +15,7 @@
 	// All scenarios happen in an away site, which is manually spawned the very second the round starts.
 	// This away site can have its exoplanet themes defined and then mapped to give the semblance of being on a planet (see the Tret away site).
 	// Alternatively, without defining exoplanet themes, it can take place in space, for example.
-	// In the future there will likely be support for no-away site scenarios that take place on the Horizon.
+	// In the future there will likely be support for no-away site scenarios that take place on the Falconhurst.
 
 	/// The away site ID of the scenario to spawn. This is what you should edit, set it to the away site's id variable.
 	var/scenario_site_id
@@ -28,7 +28,7 @@
 	/// The minimum amount of actors we want to spawn in this odyssey.
 	var/min_actor_amount = 1
 
-	/// The scenario_announcements singleton for this scenario. Contains information on the announcements sent to the Horizon and the offships.
+	/// The scenario_announcements singleton for this scenario. Contains information on the announcements sent to the Falconhurst and the offships.
 	/// Initially set to a type, which is then created in Initialize().
 	var/singleton/scenario_announcements/scenario_announcements = /singleton/scenario_announcements
 
@@ -71,7 +71,7 @@
 		setup_away_site()
 		to_world(FONT_LARGE(SPAN_DANGER("Your Odyssey is ready!")))
 	else
-		// To edit this part eventually for Horizon odyssey scenarios.
+		// To edit this part eventually for Falconhurst odyssey scenarios.
 		log_and_message_admins(FONT_HUGE("CRITICAL FAILURE: SCENARIO [name] DOES NOT HAVE A VALID SITE!"))
 		return FALSE
 	return TRUE
@@ -91,7 +91,7 @@
 	SSholomap.generate_all_minimaps()
 
 /**
- * This proc sends the early message to the Horizon. It is supposed to be sent around 5 minutes in, telling them to get ready for the expedition and to start going there.
+ * This proc sends the early message to the Falconhurst. It is supposed to be sent around 5 minutes in, telling them to get ready for the expedition and to start going there.
  * It essentially lets them move to the away site and prepare stuff for the expeditions, like shuttles, manpower and resources, without it being metagaming.
  * You can override it with an empty return if you don't want anything sent early on.
  */
@@ -113,7 +113,7 @@
 		unrestrict_away_site_landing()
 	else
 		for(var/mob/storyteller in SSodyssey.storytellers)
-			to_chat(storyteller, FONT_LARGE(SPAN_NOTICE("The automated announcement to the Horizon would have been sent now, but it has been blocked by the presence of a Storyteller.")))
+			to_chat(storyteller, FONT_LARGE(SPAN_NOTICE("The automated announcement to the Falconhurst would have been sent now, but it has been blocked by the presence of a Storyteller.")))
 			to_chat(storyteller, FONT_LARGE(SPAN_NOTICE("Remember that nobody can dock with the Scenario away site yet.")))
 			to_chat(storyteller, FONT_LARGE(SPAN_DANGER("When you are ready, use the Unrestrict Away Site Landing verb!")))
 /**
@@ -125,7 +125,7 @@
 
 	for(var/obj/effect/overmap/visitable/ship/ship as anything in SSshuttle.ships)
 		// Don't duplicate the message for landable ships. We don't want to notify both the big ship and its shuttle.
-		// Or notify the Horizon again, for that matter...
+		// Or notify the Falconhurst again, for that matter...
 		if(istype(ship, /obj/effect/overmap/visitable/ship/landable) || (ship == SSodyssey.main_map))
 			continue
 
@@ -142,11 +142,11 @@
 	SSodyssey.site_landing_restricted = FALSE
 
 /singleton/scenario_announcements
-	/// The title for the messages sent to the Horizon to notify them of the scenarios, both in notify_scenario_early and notify_scenario_late.
-	var/horizon_announcement_title = "Central Command Situation Report"
-	/// The announcement message sent to the Horizon immediately after roundstart (5 minutes or so), telling them to prepare for a yet unknown expedition.
-	var/horizon_early_announcement_message = "SCCV Horizon, your sensors suite has located a site of interest and the coordinates have been marked on your sensors. Please prepare an expedition while we investigate landing conditions.\n\nAll crew are encouraged to volunteer and should notify their relevant department heads as soon as possible. Volunteers should only be rejected in the most dire circumstances."
-	/// The announcement message sent to the Horizon around 20 minutes in, typically telling them to go investigate the scenario and the reason why.
+	/// The title for the messages sent to the Falconhurst to notify them of the scenarios, both in notify_scenario_early and notify_scenario_late.
+	var/horizon_announcement_title = "Seegson Executive Situation Report"
+	/// The announcement message sent to the Falconhurst immediately after roundstart (5 minutes or so), telling them to prepare for a yet unknown expedition.
+	var/horizon_early_announcement_message = "CSCSS Falconhurst, your sensors suite has located a site of interest and the coordinates have been marked on your sensors. Please prepare an expedition while we investigate landing conditions.\n\nAll crew are encouraged to volunteer and should notify their relevant department heads as soon as possible. Volunteers should only be rejected in the most dire circumstances."
+	/// The announcement message sent to the Falconhurst around 20 minutes in, typically telling them to go investigate the scenario and the reason why.
 	var/horizon_unrestrict_landing_message = "The landing sites have been registered and cleared. An expedition is now authorized to depart."
 
 	/// The announcement message for offships. This one contains all the info, without time segmentation.

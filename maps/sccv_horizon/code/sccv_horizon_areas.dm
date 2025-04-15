@@ -136,7 +136,7 @@
 
 /area/hangar/intrepid
 	name = "Intrepid Hangar"
-	area_blurb = "A big, open room, home to the SCCV Horizon's largest shuttle, the Intrepid."
+	area_blurb = "A big, open room, home to the CSCSS Falconhurst's largest shuttle, the Intrepid."
 	area_blurb_category = "intrepid_hanger"
 
 /area/hangar/intrepid/interstitial
@@ -350,17 +350,17 @@
 	requires_power = TRUE
 
 //
-// SCCV Horizon Areas
+// CSCSS Falconhurst Areas
 //
 /area/horizon
-	name = "Horizon (PARENT AREA - DON'T USE)"
+	name = "Falconhurst (PARENT AREA - DON'T USE)"
 	icon_state = "unknown"
 	station_area = TRUE
 	ambience = AMBIENCE_GENERIC
 
 // Exterior
 /area/horizon/exterior
-	name = "Horizon - Exterior"
+	name = "Falconhurst - Exterior"
 	icon_state = "exterior"
 	base_turf = /turf/space
 	dynamic_lighting = TRUE
@@ -374,7 +374,7 @@
 /********** Maintenance Start **********/
 // Maintenance
 /area/horizon/maintenance
-	name = "Horizon - Maintenance (PARENT AREA - DON'T USE)"
+	name = "Falconhurst - Maintenance (PARENT AREA - DON'T USE)"
 	icon_state = "maintenance"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_HIDE_FROM_HOLOMAP
 	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED
@@ -382,20 +382,20 @@
 	ambience = AMBIENCE_MAINTENANCE
 
 /area/horizon/maintenance/deck_two/fore/starboard
-	name = "Horizon - Maintenance - Deck Two - Fore Starboard"
+	name = "Falconhurst - Maintenance - Deck Two - Fore Starboard"
 
 /area/horizon/maintenance/deck_two/fore/port
-	name = "Horizon - Maintenance - Deck Two - Fore Port"
+	name = "Falconhurst - Maintenance - Deck Two - Fore Port"
 
 /area/horizon/maintenance/deck_three/aft/starboard
-	name = "Horizon - Maintenance - Deck Three - Aft Starboard"
+	name = "Falconhurst - Maintenance - Deck Three - Aft Starboard"
 
 /********** Maintenance End **********/
 
 /********** Hallways Start **********/
 // Hallways
 /area/horizon/hallway
-	name = "Horizon - Hallway (PARENT AREA - DON'T USE)"
+	name = "Falconhurst - Hallway (PARENT AREA - DON'T USE)"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 	allow_nightmode = TRUE
 	lightswitch = TRUE
@@ -403,44 +403,44 @@
 	emergency_lights = TRUE
 
 /area/horizon/hallway/deck_three/primary/central
-	name = "Horizon - Deck 3 - Central Primary Hallway"
+	name = "Falconhurst - Deck 3 - Central Primary Hallway"
 	icon_state = "hallC"
 
 /area/horizon/hallway/deck_three/primary/starboard
-	name = "Horizon - Deck 3 - Starboard Primary Hallway"
+	name = "Falconhurst - Deck 3 - Starboard Primary Hallway"
 	icon_state = "hallS"
 
 /area/horizon/hallway/deck_three/primary/starboard/docks
-	name = "Horizon - Deck 3 - Starboard Primary Hallway - Docks"
+	name = "Falconhurst - Deck 3 - Starboard Primary Hallway - Docks"
 	holomap_color = HOLOMAP_AREACOLOR_DOCK
 
 /area/horizon/hallway/deck_three/primary/port
-	name = "Horizon - Deck 3 - Port Primary Hallway"
+	name = "Falconhurst - Deck 3 - Port Primary Hallway"
 	icon_state = "hallP"
 
 /area/horizon/hallway/deck_three/primary/port/docks
-	name = "Horizon - Deck 3 - Port Primary Hallway - Docks"
+	name = "Falconhurst - Deck 3 - Port Primary Hallway - Docks"
 	holomap_color = HOLOMAP_AREACOLOR_DOCK
 
 /area/horizon/hallway/deck_two/fore
-	name = "Horizon - Deck 2 - Fore Hallway"
+	name = "Falconhurst - Deck 2 - Fore Hallway"
 	icon_state = "hallF"
 /********** Hallways End **********/
 
 /********** Stairwells Start **********/
 // Stairwells
 /area/horizon/stairwell
-	name = "Horizon - Stairwell (PARENT AREA - DON'T USE)"
+	name = "Falconhurst - Stairwell (PARENT AREA - DON'T USE)"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	holomap_color = HOLOMAP_AREACOLOR_HALLWAYS
 
 /area/horizon/stairwell/central
-	name = "Horizon - Central Stairwell"
+	name = "Falconhurst - Central Stairwell"
 	icon_state = "stairwell"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/stairwell/bridge
-	name = "Horizon - Bridge Stairwell"
+	name = "Falconhurst - Bridge Stairwell"
 	icon_state = "bridge_stairs"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	ambience = AMBIENCE_HIGHSEC
@@ -449,77 +449,77 @@
 /********** Crew Quarters Start **********/
 // Crew Quarters
 /area/horizon/crew_quarters
-	name = "Horizon - Crew Quarters (PARENT AREA - DON'T USE)"
+	name = "Falconhurst - Crew Quarters (PARENT AREA - DON'T USE)"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 // Cryogenics
 /area/horizon/crew_quarters/cryo
-	name = "Horizon - Cryogenic Storage"
+	name = "Falconhurst - Cryogenic Storage"
 	icon_state = "Sleep"
 
 /area/horizon/crew_quarters/cryo/living_quarters_lift
-	name = "Horizon - Living Quarters Lift"
+	name = "Falconhurst - Living Quarters Lift"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/crew_quarters/cryo/dormitories
-	name = "Horizon - Cryogenic Storage - Dormitories"
+	name = "Falconhurst - Cryogenic Storage - Dormitories"
 
 /area/horizon/crew_quarters/cryo/washroom
-	name = "Horizon - Cryogenic Storage - Washroom"
+	name = "Falconhurst - Cryogenic Storage - Washroom"
 	icon_state = "washroom"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/crew_quarters/cryo/showers
-	name = "Horizon - Cryogenic Storage - Showers"
+	name = "Falconhurst - Cryogenic Storage - Showers"
 	icon_state = "showers"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 // Fitness Center
 /area/horizon/crew_quarters/fitness
-	name = "Horizon - Fitness Center (PARENT AREA - DON'T USE)"
+	name = "Falconhurst - Fitness Center (PARENT AREA - DON'T USE)"
 	icon_state = "fitness"
 
 /area/horizon/crew_quarters/fitness/hallway
-	name = "Horizon - Fitness Center Hallway"
+	name = "Falconhurst - Fitness Center Hallway"
 	icon_state = "fitness_hallway"
 
 /area/horizon/crew_quarters/fitness/pool
-	name = "Horizon - Fitness Center - Pool"
+	name = "Falconhurst - Fitness Center - Pool"
 	icon_state = "fitness_pool"
 
 /area/horizon/crew_quarters/fitness/gym
-	name = "Horizon - Fitness Center - Gym"
+	name = "Falconhurst - Fitness Center - Gym"
 	icon_state = "fitness_gym"
 
 /area/horizon/crew_quarters/fitness/changing
-	name = "Horizon - Fitness Center - Changing Room"
+	name = "Falconhurst - Fitness Center - Changing Room"
 	icon_state = "fitness_changingroom"
 
 /area/horizon/crew_quarters/fitness/washroom
-	name = "Horizon - Fitness Center - Washroom"
+	name = "Falconhurst - Fitness Center - Washroom"
 	icon_state = "washroom"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/crew_quarters/fitness/showers
-	name = "Horizon - Fitness Center - Showers"
+	name = "Falconhurst - Fitness Center - Showers"
 	icon_state = "showers"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/crew_quarters/fitness/lounge
-	name = "Horizon - Fitness Center - Lounge"
+	name = "Falconhurst - Fitness Center - Lounge"
 	icon_state = "fitness_lounge"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 // Lounges
 /area/horizon/crew_quarters/lounge/bar
-	name = "Horizon - Bar Lounge"
+	name = "Falconhurst - Bar Lounge"
 	icon_state = "lounge"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 // Miscellanous
 /area/horizon/crew_quarters/washroom/central
-	name = "Horizon - Central Washroom"
+	name = "Falconhurst - Central Washroom"
 	icon_state = "washroom"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
@@ -528,15 +528,15 @@
 /********** Holodeck Start **********/
 // Holodeck
 /area/horizon/holodeck_control
-	name = "Horizon - Holodeck Alpha"
+	name = "Falconhurst - Holodeck Alpha"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/horizon/holodeck_control/beta
-	name = "Horizon - Holodeck Beta"
+	name = "Falconhurst - Holodeck Beta"
 
 /area/horizon/holodeck
-	name = "Horizon - Holodeck (PARENT AREA - DON'T USE)"
+	name = "Falconhurst - Holodeck (PARENT AREA - DON'T USE)"
 	icon_state = "Holodeck"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 	no_light_control = TRUE
@@ -545,181 +545,181 @@
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/horizon/holodeck/alphadeck
-	name = "Horizon - Holodeck Alpha"
+	name = "Falconhurst - Holodeck Alpha"
 	dynamic_lighting = TRUE
 
 /area/horizon/holodeck/betadeck
-	name = "Horizon - Holodeck Beta"
+	name = "Falconhurst - Holodeck Beta"
 	dynamic_lighting = TRUE
 
 /area/horizon/holodeck/source_plating
-	name = "Horizon - Holodeck - Off"
+	name = "Falconhurst - Holodeck - Off"
 
 /area/horizon/holodeck/source_chapel
-	name = "Horizon - Holodeck - Chapel"
+	name = "Falconhurst - Holodeck - Chapel"
 
 /area/horizon/holodeck/source_gym
-	name = "Horizon - Holodeck - Gym"
+	name = "Falconhurst - Holodeck - Gym"
 	sound_environment = SOUND_ENVIRONMENT_ARENA
 
 /area/horizon/holodeck/source_range
-	name = "Horizon - Holodeck - Range"
+	name = "Falconhurst - Holodeck - Range"
 	sound_environment = SOUND_ENVIRONMENT_ARENA
 
 /area/horizon/holodeck/source_emptycourt
-	name = "Horizon - Holodeck - Empty Court"
+	name = "Falconhurst - Holodeck - Empty Court"
 	sound_environment = SOUND_ENVIRONMENT_ARENA
 
 /area/horizon/holodeck/source_boxingcourt
-	name = "Horizon - Holodeck - Boxing Court"
+	name = "Falconhurst - Holodeck - Boxing Court"
 	sound_environment = SOUND_ENVIRONMENT_ARENA
 
 /area/horizon/holodeck/source_basketball
-	name = "Horizon - Holodeck - Basketball Court"
+	name = "Falconhurst - Holodeck - Basketball Court"
 	sound_environment = SOUND_ENVIRONMENT_ARENA
 
 /area/horizon/holodeck/source_thunderdomecourt
-	name = "Horizon - Holodeck - Thunderdome Court"
+	name = "Falconhurst - Holodeck - Thunderdome Court"
 	sound_environment = SOUND_ENVIRONMENT_ARENA
 
 /area/horizon/holodeck/source_courtroom
-	name = "Horizon - Holodeck - Courtroom"
+	name = "Falconhurst - Holodeck - Courtroom"
 	sound_environment = SOUND_ENVIRONMENT_AUDITORIUM
 
 /area/horizon/holodeck/source_burntest
-	name = "Horizon - Holodeck - Atmospheric Burn Test"
+	name = "Falconhurst - Holodeck - Atmospheric Burn Test"
 
 /area/horizon/holodeck/source_wildlife
-	name = "Horizon - Holodeck - Wildlife Simulation"
+	name = "Falconhurst - Holodeck - Wildlife Simulation"
 
 /area/horizon/holodeck/source_meetinghall
-	name = "Horizon - Holodeck - Meeting Hall"
+	name = "Falconhurst - Holodeck - Meeting Hall"
 	sound_environment = SOUND_ENVIRONMENT_AUDITORIUM
 
 /area/horizon/holodeck/source_theatre
-	name = "Horizon - Holodeck - Callistean Theatre"
+	name = "Falconhurst - Holodeck - Callistean Theatre"
 	sound_environment = SOUND_ENVIRONMENT_CONCERT_HALL
 
 /area/horizon/holodeck/source_picnicarea
-	name = "Horizon - Holodeck - Picnic Area"
+	name = "Falconhurst - Holodeck - Picnic Area"
 	sound_environment = SOUND_ENVIRONMENT_PLAIN
 
 /area/horizon/holodeck/source_dininghall
-	name = "Horizon - Holodeck - Dining Hall"
+	name = "Falconhurst - Holodeck - Dining Hall"
 	sound_environment = SOUND_ENVIRONMENT_PLAIN
 
 /area/horizon/holodeck/source_snowfield
-	name = "Horizon - Holodeck - Bursa Tundra"
+	name = "Falconhurst - Holodeck - Bursa Tundra"
 	sound_environment = SOUND_ENVIRONMENT_FOREST
 
 /area/horizon/holodeck/source_desert
-	name = "Horizon - Holodeck - Desert"
+	name = "Falconhurst - Holodeck - Desert"
 	sound_environment = SOUND_ENVIRONMENT_PLAIN
 
 /area/horizon/holodeck/source_space
-	name = "Horizon - Holodeck - Space"
+	name = "Falconhurst - Holodeck - Space"
 	has_gravity = FALSE
 	sound_environment = SOUND_AREA_SPACE
 
 /area/horizon/holodeck/source_battlemonsters
-	name = "Horizon - Holodeck - Battlemonsters Arena"
+	name = "Falconhurst - Holodeck - Battlemonsters Arena"
 	sound_environment = SOUND_ENVIRONMENT_ARENA
 
 /area/horizon/holodeck/source_chessboard
-	name = "Horizon - Holodeck - Chessboard"
+	name = "Falconhurst - Holodeck - Chessboard"
 
 /area/horizon/holodeck/source_adhomai
-	name = "Horizon - Holodeck - Adhomian Campfire"
+	name = "Falconhurst - Holodeck - Adhomian Campfire"
 
 /area/horizon/holodeck/source_beach
-	name = "Horizon - Holodeck - Silversunner Coast"
+	name = "Falconhurst - Holodeck - Silversunner Coast"
 	sound_environment = SOUND_ENVIRONMENT_PLAIN
 
 /area/horizon/holodeck/source_pool
-	name = "Horizon - Holodeck - Swimming Pool"
+	name = "Falconhurst - Holodeck - Swimming Pool"
 
 /area/horizon/holodeck/source_sauna
-	name = "Horizon - Holodeck - Sauna"
+	name = "Falconhurst - Holodeck - Sauna"
 
 /area/horizon/holodeck/source_jupiter
-	name = "Horizon - Holodeck - Jupiter Upper Atmosphere"
+	name = "Falconhurst - Holodeck - Jupiter Upper Atmosphere"
 
 /area/horizon/holodeck/source_konyang
-	name = "Horizon - Holodeck - Konyanger Boardwalk"
+	name = "Falconhurst - Holodeck - Konyanger Boardwalk"
 
 /area/horizon/holodeck/source_moghes
-	name = "Horizon - Holodeck - Moghresian Jungle"
+	name = "Falconhurst - Holodeck - Moghresian Jungle"
 
 /area/horizon/holodeck/source_biesel
-	name = "Horizon - Holodeck - Foggy Mendell Skyline"
+	name = "Falconhurst - Holodeck - Foggy Mendell Skyline"
 
 /area/horizon/holodeck/source_tribunal
-	name = "Horizon - Holodeck - Tribunalist Chapel"
+	name = "Falconhurst - Holodeck - Tribunalist Chapel"
 
 /area/horizon/holodeck/source_trinary
-	name = "Horizon - Holodeck - Trinarist Chapel"
+	name = "Falconhurst - Holodeck - Trinarist Chapel"
 
 /area/horizon/holodeck/source_cafe
-	name = "Horizon - Holodeck - Animal Cafe"
+	name = "Falconhurst - Holodeck - Animal Cafe"
 
 /area/horizon/holodeck/source_lasertag
-	name = "Horizon - Holodeck - Laser Tag Arena"
+	name = "Falconhurst - Holodeck - Laser Tag Arena"
 
 /area/horizon/holodeck/source_combat_training
-	name = "Horizon - Holodeck - Combat Training Arena"
+	name = "Falconhurst - Holodeck - Combat Training Arena"
 
 /********** Holodeck End **********/
 
 /********** Unique Start **********/
 // Hydroponics
 /area/horizon/hydroponics
-	name = "Horizon - Hydroponics"
+	name = "Falconhurst - Hydroponics"
 	icon_state = "hydro"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/horizon/hydroponics/lower
-	name = "Horizon - Hydroponics - Lower"
+	name = "Falconhurst - Hydroponics - Lower"
 
 /area/horizon/hydroponics/garden
-	name = "Horizon - Public Garden"
+	name = "Falconhurst - Public Garden"
 	icon_state = "garden"
 
 // Library
 /area/horizon/library
-	name = "Horizon - Library"
+	name = "Falconhurst - Library"
 	icon_state = "library"
 	sound_environment = SOUND_AREA_LARGE_SOFTFLOOR
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 // Kitchen
 /area/horizon/kitchen
-	name = "Horizon - Kitchen"
+	name = "Falconhurst - Kitchen"
 	icon_state = "kitchen"
 	allow_nightmode = FALSE
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/horizon/kitchen/hallway
-	name = "Horizon - Kitchen - Hallway"
+	name = "Falconhurst - Kitchen - Hallway"
 
 /area/horizon/kitchen/freezer
-	name = "Horizon - Kitchen - Freezer"
+	name = "Falconhurst - Kitchen - Freezer"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 // Bar
 /area/horizon/bar
-	name = "Horizon - Bar"
+	name = "Falconhurst - Bar"
 	icon_state = "bar"
 	allow_nightmode = FALSE
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 /area/horizon/bar/backroom
-	name = "Horizon - Bar - Backroom"
+	name = "Falconhurst - Bar - Backroom"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
 // Cafeteria
 /area/horizon/cafeteria
-	name = "Horizon - Deck 3 Cafeteria"
+	name = "Falconhurst - Deck 3 Cafeteria"
 	icon_state = "cafeteria"
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 	area_blurb = "The smell of coffee wafts over from the cafe. Patience, the tree, stands proudly in the centre of the atrium."
@@ -727,7 +727,7 @@
 
 // Custodial
 /area/horizon/custodial
-	name = "Horizon - Custodial Closet"
+	name = "Falconhurst - Custodial Closet"
 	icon_state = "janitor"
 	allow_nightmode = FALSE
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
@@ -737,20 +737,20 @@
 	area_blurb_category = "janitor"
 
 /area/horizon/custodial/disposals
-	name = "Horizon - Disposals and Recycling"
+	name = "Falconhurst - Disposals and Recycling"
 	icon_state = "disposal"
 	ambience = list(AMBIENCE_ENGINEERING, AMBIENCE_ATMOS) // Industrial sounds.
 	area_blurb = "A large trash compactor takes up much of the room, ready to crush the ship's rubbish."
 	area_blurb_category = "trash_compactor"
 
 /area/horizon/custodial/auxiliary
-	name = "Horizon - Auxiliary Custodial Closet"
+	name = "Falconhurst - Auxiliary Custodial Closet"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	holomap_color = HOLOMAP_AREACOLOR_CIVILIAN
 
 // Crew Armoury
 /area/horizon/crew_armoury
-	name = "Horizon - Crew Armoury"
+	name = "Falconhurst - Crew Armoury"
 	icon_state = "crew_armoury"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 	ambience = AMBIENCE_HIGHSEC
@@ -758,7 +758,7 @@
 	holomap_color = HOLOMAP_AREACOLOR_COMMAND
 
 /area/horizon/crew_armoury/foyer
-	name = "Horizon - Crew Armoury - Foyer"
+	name = "Falconhurst - Crew Armoury - Foyer"
 	icon_state = "crew_armoury_foyer"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	ambience = AMBIENCE_FOREBODING
@@ -766,61 +766,61 @@
 
 // Security (Deck 2)
 /area/horizon/security
-	name = "Horizon - Security (PARENT AREA - DON'T USE)"
+	name = "Falconhurst - Security (PARENT AREA - DON'T USE)"
 	holomap_color = HOLOMAP_AREACOLOR_SECURITY
 
 /area/horizon/security/lobby
-	name = "Horizon - Security - Lobby"
+	name = "Falconhurst - Security - Lobby"
 	icon_state = "security"
 
 /area/horizon/security/office
-	name = "Horizon - Security - Office"
+	name = "Falconhurst - Security - Office"
 	icon_state = "security"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/security/hallway
-	name = "Horizon - Security - Main Hallway"
+	name = "Falconhurst - Security - Main Hallway"
 	icon_state = "security"
 
 /area/horizon/security/equipment
-	name = "Horizon - Security - Equipment Room"
+	name = "Falconhurst - Security - Equipment Room"
 	icon_state = "security"
 
 /area/horizon/security/washroom
-	name = "Horizon - Security - Washroom"
+	name = "Falconhurst - Security - Washroom"
 	icon_state = "security"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/security/brig
-	name = "Horizon - Security - Brig"
+	name = "Falconhurst - Security - Brig"
 	icon_state = "brig"
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP | AREA_FLAG_PRISON
 	ambience = AMBIENCE_HIGHSEC
 
 /area/horizon/security/holding_cell_a
-	name = "Horizon - Security - Holding Cell A"
+	name = "Falconhurst - Security - Holding Cell A"
 	icon_state = "brig_proc"
 
 /area/horizon/security/holding_cell_b
-	name = "Horizon - Security - Holding Cell B"
+	name = "Falconhurst - Security - Holding Cell B"
 	icon_state = "brig_proc_two"
 
 /area/horizon/security/head_of_security
-	name = "Horizon - Security - Head of Security's Office"
+	name = "Falconhurst - Security - Head of Security's Office"
 	icon_state = "head_quarters"
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 	ambience = AMBIENCE_HIGHSEC
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/security/warden
-	name = "Horizon - Security - Warden's Office"
+	name = "Falconhurst - Security - Warden's Office"
 	icon_state = "Warden"
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 	ambience = AMBIENCE_HIGHSEC
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/security/armoury
-	name = "Horizon - Security - Armoury"
+	name = "Falconhurst - Security - Armoury"
 	icon_state = "Warden"
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 	ambience = AMBIENCE_HIGHSEC
@@ -828,63 +828,63 @@
 
 // Security (Deck 3)
 /area/horizon/security/investigations_hallway
-	name = "Horizon - Security - Investigations Hallway"
+	name = "Falconhurst - Security - Investigations Hallway"
 	icon_state = "security"
 
 /area/horizon/security/meeting_room
-	name = "Horizon - Security - Meeting Room"
+	name = "Falconhurst - Security - Meeting Room"
 	icon_state = "security"
 
 /area/horizon/security/firing_range
-	name = "Horizon - Security - Firing Range"
+	name = "Falconhurst - Security - Firing Range"
 	icon_state = "security"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/horizon/security/investigators_office
-	name = "Horizon - Security - Investigators' Office"
+	name = "Falconhurst - Security - Investigators' Office"
 	icon_state = "investigations_office"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
 /area/horizon/security/interrogation
-	name = "Horizon - Security - Interrogation"
+	name = "Falconhurst - Security - Interrogation"
 	icon_state = "investigations"
 	ambience = list(AMBIENCE_HIGHSEC, AMBIENCE_FOREBODING)
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/horizon/security/interrogation/monitoring
-	name = "Horizon - Security - Interrogation Monitoring"
+	name = "Falconhurst - Security - Interrogation Monitoring"
 
 /area/horizon/security/forensic_laboratory
-	name = "Horizon - Security - Forensic Laboratory"
+	name = "Falconhurst - Security - Forensic Laboratory"
 	icon_state = "investigations"
 
 /area/horizon/security/autopsy_laboratory
-	name = "Horizon - Security - Autopsy Laboratory"
+	name = "Falconhurst - Security - Autopsy Laboratory"
 	icon_state = "investigations"
 	ambience = list(AMBIENCE_GHOSTLY, AMBIENCE_FOREBODING)
 
 /area/horizon/security/evidence_storage
-	name = "Horizon - Security - Evidence Storage"
+	name = "Falconhurst - Security - Evidence Storage"
 	icon_state = "evidence"
 	ambience = AMBIENCE_FOREBODING
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 // Commissary
 /area/horizon/commissary
-	name = "Horizon - Commissary"
+	name = "Falconhurst - Commissary"
 /********** Unique End **********/
 
 /********** Weapon Systems Start **********/
 // Secure Ammunition Storage
 /area/horizon/secure_ammunition_storage
-	name = "Horizon - Secure Ammunitions Storage"
+	name = "Falconhurst - Secure Ammunitions Storage"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	ambience = AMBIENCE_FOREBODING
 	holomap_color = HOLOMAP_AREACOLOR_OPERATIONS
 
 // ZAT
 /area/horizon/zat
-	name = "Horizon - ZAT Weapon System"
+	name = "Falconhurst - ZAT Weapon System"
 	icon_state = "zat"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 	ambience = AMBIENCE_SINGULARITY
@@ -894,14 +894,14 @@
 
 // Longbow
 /area/horizon/longbow
-	name = "Horizon - Longbow Weapon System"
+	name = "Falconhurst - Longbow Weapon System"
 	icon_state = "bridge_weapon"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 	ambience = AMBIENCE_HIGHSEC
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 
 /area/horizon/grauwolf
-	name = "Horizon - Grauwolf Weapon System"
+	name = "Falconhurst - Grauwolf Weapon System"
 	icon_state = "bridge_weapon"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 	ambience = AMBIENCE_HIGHSEC

@@ -71,12 +71,12 @@
 	output_level = 500000
 	charge =1.5e+7
 
-// For the substation SMES around the Horizon.
+// For the substation SMES around the Falconhurst.
 /obj/machinery/power/smes/buildable/substation
 	input_level = 150000
 	output_level = 140000
 
-// The Horizon's shuttles want something with decent capacity to sustain themselves and enough transmission to meet their energy needs.
+// The Falconhurst's shuttles want something with decent capacity to sustain themselves and enough transmission to meet their energy needs.
 /obj/machinery/power/smes/buildable/horizon_shuttle/Initialize()
 	. = ..()
 	component_parts += new /obj/item/smes_coil/super_io(src)

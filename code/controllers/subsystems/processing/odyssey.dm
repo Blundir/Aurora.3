@@ -34,7 +34,7 @@ SUBSYSTEM_DEF(odyssey)
 
 /datum/controller/subsystem/odyssey/fire()
 	if(!has_sent_roundstart_announcement)
-		// First of all, notify the Horizon.
+		// First of all, notify the Falconhurst.
 		addtimer(CALLBACK(scenario, TYPE_PROC_REF(/singleton/scenario, send_main_map_message), main_map), rand(4 MINUTES, 6 MINUTES))
 		addtimer(CALLBACK(scenario, TYPE_PROC_REF(/singleton/scenario, unrestrict_landing_and_message_horizon), main_map), 40 MINUTES)
 

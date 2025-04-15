@@ -52,7 +52,7 @@
 	var/destruction_desc = "breaks apart" // Fancy string for barricades/tables/objects exploding.
 
 	// Icons
-	var/colour_blend = TRUE
+	var/colour_blend = FALSE
 	var/icon_colour                                      // Colour applied to products of this material.
 	var/wall_colour                                      // Colour applied to walls specifically.
 	var/icon_base = "solid"                              // Wall and table base icon tag. See header.
@@ -986,7 +986,7 @@
 	stack_type = /obj/item/stack/tile/carpet
 	hardness = 1
 	weight = 1
-	icon_colour = COLOR_RED
+	icon_colour = COLOR_BLEAK_RED
 	flags = MATERIAL_PADDING
 	ignition_point = T0C+232
 	melting_point = T0C+300

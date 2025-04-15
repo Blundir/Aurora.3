@@ -212,10 +212,10 @@
 		to_chat(src, SPAN_WARNING("Site landing is already unrestricted!"))
 		return
 
-	var/reporttitle = sanitizeSafe(tgui_input_text(usr, "Pick a title for the message the Horizon will get.", "Title"))
+	var/reporttitle = sanitizeSafe(tgui_input_text(usr, "Pick a title for the message the Falconhurst will get.", "Title"))
 	if(!reporttitle)
 		reporttitle = "SCC Sensors Report"
-	var/reportbody = sanitize(tgui_input_text(usr, "Enter the message the Horizon will get. It should at least describe what they're doing here in a general sense, along with the reason why they can land now.", "Body", multiline = TRUE), extra = FALSE)
+	var/reportbody = sanitize(tgui_input_text(usr, "Enter the message the Falconhurst will get. It should at least describe what they're doing here in a general sense, along with the reason why they can land now.", "Body", multiline = TRUE), extra = FALSE)
 	if(!reportbody)
 		return
 

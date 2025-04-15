@@ -86,19 +86,19 @@
 )
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_1/fore
-	name = "Deck One, Fore of Horizon"
+	name = "Deck One, Fore of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_1_fore"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_1/port
-	name = "Deck One, Port of Horizon"
+	name = "Deck One, Port of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_1_port"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_1/starboard
-	name = "Deck One, Starboard of Horizon"
+	name = "Deck One, Starboard of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_1_starboard"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_1/aft
-	name = "Deck One, Aft of Horizon"
+	name = "Deck One, Aft of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_1_aft"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_1/port_propulsion
@@ -121,19 +121,19 @@
 )
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_2/fore
-	name = "Deck Two, Fore of Horizon"
+	name = "Deck Two, Fore of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_2_fore"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_2/starboard_fore
-	name = "Deck Two, Starboard Fore of Horizon"
+	name = "Deck Two, Starboard Fore of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_2_starboard_fore"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_2/port_fore
-	name = "Deck Two, Port Fore of Horizon"
+	name = "Deck Two, Port Fore of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_2_port_fore"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_2/aft
-	name = "Deck Two, Aft of Horizon"
+	name = "Deck Two, Aft of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_2_aft"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_2/starboard_aft
@@ -141,7 +141,7 @@
 	landmark_tag = "nav_horizon_exterior_deck_2_starboard_aft"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_2/port_aft
-	name = "Deck One, Port Aft of Horizon"
+	name = "Deck One, Port Aft of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_2_port_aft"
 
 // ================================ exterior deck 3
@@ -155,23 +155,23 @@
 )
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_3/fore
-	name = "Deck Three, Fore of Horizon"
+	name = "Deck Three, Fore of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_3_fore"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_3/starboardfore
-	name = "Deck Three, Starboard Fore of Horizon"
+	name = "Deck Three, Starboard Fore of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_3_starboard_fore"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_3/portfore
-	name = "Deck Three, Fore Port of Horizon"
+	name = "Deck Three, Fore Port of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_3_port_fore"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_3/portaft
-	name = "Deck Three, Aft Port of Horizon"
+	name = "Deck Three, Aft Port of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_3_port_aft"
 
 /obj/effect/shuttle_landmark/horizon/exterior/deck_3/aft
-	name = "Deck Three, Aft of Horizon"
+	name = "Deck Three, Aft of Falconhurst"
 	landmark_tag = "nav_horizon_exterior_deck_3_aft"
 
 // ================================ exterior sneaky antag-only landmarks

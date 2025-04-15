@@ -623,7 +623,7 @@
 		/obj/item/stack/cable_coil = 30
 	)
 
-/obj/machinery/shipsensors/strong/scc_shuttle //Exclusively for the Horizon scout shuttle.
+/obj/machinery/shipsensors/strong/scc_shuttle //Exclusively for the Falconhurst scout shuttle.
 	icon_state = "sensors"
 	icon = 'icons/obj/spaceship/scc/shuttle_sensors.dmi'
 	component_types = list(

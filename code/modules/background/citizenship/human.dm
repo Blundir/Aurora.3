@@ -157,7 +157,7 @@
 							"Convince [rand(3,6)] qualified specialists among crew to enter Sol Alliance space, and issue them a visa recommendation.")
 		else
 			rep_objectives = pick("Collect [rand(3,7)] pictures of secure [SSatlas.current_map.station_short] areas.",
-							"Convince Horizon command to turn a Solarian crewmember's sentence into a fine.")
+							"Convince Falconhurst command to turn a Solarian crewmember's sentence into a fine.")
 
 	return rep_objectives
 
@@ -340,7 +340,7 @@
 
 	switch(mission_level)
 		if(REPRESENTATIVE_MISSION_HIGH)
-			rep_objectives = pick("Have [rand(2,5)] employees write their grievances with the stationbounds and IPC workers, and present the report to Horizon command.",
+			rep_objectives = pick("Have [rand(2,5)] employees write their grievances with the stationbounds and IPC workers, and present the report to Falconhurst command.",
 							"Convince [rand(2,5)] crewmembers of Moroz Holy Tribunal being the superior religion.")
 
 		if(REPRESENTATIVE_MISSION_MEDIUM)

@@ -1,6 +1,6 @@
 /datum/map/sccv_horizon
-	name = "SCCV Horizon"
-	full_name = "SCCV Horizon"
+	name = "CSCSS Falconhurst"
+	full_name = "CSCSS Falconhurst"
 	path = "sccv_horizon"
 
 	traits = list(
@@ -38,8 +38,8 @@
 		"6" = /turf/space
 	)
 
-	station_name = "SCCV Horizon"
-	station_short = "Horizon"
+	station_name = "CSCSS Falconhurst"
+	station_short = "Falconhurst"
 	dock_name = "SCC Sector Liaison Post"
 	dock_short = "Sector Liaison Post"
 	boss_name = "Stellar Corporate Conglomerate"
@@ -49,7 +49,7 @@
 	station_type = "ship"
 
 	command_spawn_enabled = TRUE
-	command_spawn_message = "Welcome to the SCCV Horizon!"
+	command_spawn_message = "Welcome to the CSCSS Falconhurst!"
 
 	use_overmap = TRUE
 	num_exoplanets = 2
@@ -171,11 +171,11 @@
 /datum/map/sccv_horizon/send_welcome()
 	var/obj/effect/overmap/visitable/ship/horizon = SSshuttle.ship_by_type(overmap_visitable_type)
 
-	var/welcome_text = "<center><img src = scclogo.png><br />[FONT_LARGE("<b>SCCV Horizon</b> Ultra-Range Sensor Readings:")]<br>"
+	var/welcome_text = "<center><img src = scclogo.png><br />[FONT_LARGE("<b>CSCSS Falconhurst</b> Ultra-Range Sensor Readings:")]<br>"
 	welcome_text += "Report generated on [worlddate2text()] at [worldtime2text()]</center><br /><br />"
 	welcome_text += "<hr>Current sector:<br /><b>[SSatlas.current_sector.name]</b><br /><br>"
 
-	if (horizon) //If the overmap is disabled, it's possible for there to be no Horizon.
+	if (horizon) //If the overmap is disabled, it's possible for there to be no Falconhurst.
 		var/list/space_things = list()
 		welcome_text += "Current Coordinates:<br /><b>[horizon.x]:[horizon.y]</b><br /><br>"
 		welcome_text += "Available Ports of Call: <b>[english_list(SSatlas.current_sector.ports_of_call, "none")]</b><br>"
@@ -207,7 +207,7 @@
 
 		welcome_text += "<hr>"
 
-	post_comm_message("SCCV Horizon Sensor Report", welcome_text)
+	post_comm_message("CSCSS Falconhurst Sensor Report", welcome_text)
 	var/report = "The long-range sensor readings have been printed out at all communication consoles."
 	priority_announcement.Announce(message = report)
 

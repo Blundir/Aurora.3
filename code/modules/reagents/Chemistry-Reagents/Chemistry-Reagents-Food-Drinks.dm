@@ -5739,13 +5739,13 @@
 /singleton/reagent/alcohol/new_horizons
 	name = "New Horizons"
 	color = "#1d3fbb"
-	description = "In-house celebratory cocktail of the SCCV Horizon herself, served in an immensely intricate Horizon-shaped glass. Intended for ship-wide celebrations but can happily be poured any day of the week."
+	description = "In-house celebratory cocktail of the CSCSS Falconhurst herself, served in an immensely intricate Falconhurst-shaped glass. Intended for ship-wide celebrations but can happily be poured any day of the week."
 	strength = 30
 	taste_description = "the celebration of new horizons"
 
 	glass_icon_state = "horizon_glass"
 	glass_name = "glass of New Horizons"
-	glass_desc = "In-house celebratory cocktail of the SCCV Horizon herself, served in an immensely intricate Horizon-shaped glass. Intended for ship-wide celebrations but can happily be poured any day of the week."
+	glass_desc = "In-house celebratory cocktail of the CSCSS Falconhurst herself, served in an immensely intricate Falconhurst-shaped glass. Intended for ship-wide celebrations but can happily be poured any day of the week."
 
 /singleton/reagent/alcohol/espratini
 	name = "Espratini"

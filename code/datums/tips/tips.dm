@@ -209,8 +209,8 @@ GLOBAL_LIST_EMPTY(tips_by_category)
 		"As an Engineer, you can make gold, silver, and platinum with the INDRA.",
 		"As an Atmospheric Technician, you can't unwrench a pipe if the pressure within is too high, unless you use a pipewrench.",
 		"As an Atmospheric Technician, you can remotely control the atmospheric conditions around the ship.",
-		"As an Atmospheric Technician, you can heat the Horizon's thrust gas with anything that burns, and anything that fuels that burn.",
-		"As an Atmospheric Technician, you can try using other gas for thrust than just Phoron. Though, you'll find that its less effective on the Horizon without some considerable work."
+		"As an Atmospheric Technician, you can heat the Falconhurst's thrust gas with anything that burns, and anything that fuels that burn.",
+		"As an Atmospheric Technician, you can try using other gas for thrust than just Phoron. Though, you'll find that its less effective on the Falconhurst without some considerable work."
 	)
 
 

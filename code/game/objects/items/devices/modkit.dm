@@ -184,7 +184,7 @@
 	desc = "A simple cardboard box containing the requisition forms, permits, and decal kits for a Himean voidsuit."
 	desc_extended = "Despite the vast amounts of supplementary paperwork involved, the Stellar Corporate Conglomerate continues to import specialty industrialwear through an Orion Express subsidiary to \
 	boost morale among Himean staff. With success in the previous Type-76 'Fish Fur' program, the Chainlink has also authorized a number of Type-86 'Cicada' industrial hardsuits for use \
-	on a number of installations, such as the Horizon."
+	on a number of installations, such as the Falconhurst."
 	desc_info = "In order to convert a voidsuit, simply click on voidsuit or helmet with this item. The same process can be used to convert the voidsuit back into a regular voidsuit, or \
 	to turn an industrial hardsuit assembly into a Himeo variant. Make sure not to have a helmet or tank in the suit, or else it will be deleted."
 

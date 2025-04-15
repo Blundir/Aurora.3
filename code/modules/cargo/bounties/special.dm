@@ -19,11 +19,11 @@
 		for(var/i = 0; i < reward; ++i)
 			SScargo.try_add_bounty(SScargo.random_bounty())
 
-//Part of the Horizon's operations is to secure phoron, so high priority.
+//Part of the Falconhurst's operations is to secure phoron, so high priority.
 
 /datum/bounty/item/phoron_sheet
 	name = "Phoron Sheets"
-	description = "Shipment of Phoron is considered to be a key part of the SCCV Horizon's operations. This bounty should always be prioritized."
+	description = "Shipment of Phoron is considered to be a key part of the CSCSS Falconhurst's operations. This bounty should always be prioritized."
 	reward_low = 2600
 	reward_high = 3750
 	required_count = 40

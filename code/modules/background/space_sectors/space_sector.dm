@@ -55,7 +55,7 @@
 	var/list/lobby_tracks
 
 	/// A list of the major ports in this sector.
-	/// Note that these are supposed to be visitable by the Horizon and its crew, so only put those there.
+	/// Note that these are supposed to be visitable by the Falconhurst and its crew, so only put those there.
 	var/list/ports_of_call
 	/// The days of the next port visits. If null, port visits are disabled.
 	/// Must be a day found in the all_days list.

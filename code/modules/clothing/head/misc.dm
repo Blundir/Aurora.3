@@ -488,7 +488,7 @@
 
 /obj/item/clothing/head/leader_headband
 	name = "militia leader headband"
-	desc = "A simple headband that is used to denote the leader of a Horizon militia team."
+	desc = "A simple headband that is used to denote the leader of a Falconhurst militia team."
 	icon = 'icons/obj/item/clothing/head/leader_headband.dmi'
 	icon_state = "leader_headband"
 	item_state = "leader_headband"

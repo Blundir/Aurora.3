@@ -24,7 +24,7 @@ body:
     multiple: true
     description: Where did the bug happen?
     options:
-      - Horizon
+      - Falconhurst
       - Intrepid
       - Spark
       - Away Site

@@ -450,7 +450,7 @@
 /area/ship/ee_spy_ship)
 "fZq" = (
 /obj/machinery/door/airlock/hatch{
-	name = "Horizon Refuse Sorting";
+	name = "Falconhurst Refuse Sorting";
 	req_access = list(205);
 	dir = 4
 	},

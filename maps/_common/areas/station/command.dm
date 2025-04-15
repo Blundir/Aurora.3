@@ -72,7 +72,7 @@
 	icon_state = "bridge"
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 
-/area/bridge/controlroom // Horizon.
+/area/bridge/controlroom // Falconhurst.
 	name = "Command - Control Room"
 	area_blurb = "The full expanse of space lies beyond a thick pane of reinforced glass, all that protects you from a cold and painful death. The computers hum, showing various displays and holographic signs. The sight would be overwhelming if you are not used to such an environment. Even at full power, the sensors fail to map even a fraction of the dots of light making up the cosmic filament."
 	area_blurb_category = "bridge"

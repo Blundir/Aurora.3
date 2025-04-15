@@ -76,8 +76,8 @@
 //generic stickers, catch all for anything that doesn't fit in another category
 //
 /obj/item/sticker/generic
-	name = "sccv horizon sticker"
-	desc = "A sticker of the vague shape of the SCCV Horizon."
+	name = "cscss falconhurst sticker"
+	desc = "A sticker of the vague shape of the CSCSS Falconhurst."
 	icon_state = "sccvhorizon"
 
 /obj/item/sticker/generic/goldstar

@@ -1,7 +1,7 @@
 /datum/computer_file/program/away_manifest
 	filename = "awayshuttlemanifest"
 	filedesc = "Shuttle Manifest Program"
-	extended_desc = "Used to view the manifest of the Horizon's shuttles."
+	extended_desc = "Used to view the manifest of the Falconhurst's shuttles."
 	program_icon_state = "menu"
 	program_key_icon_state = "lightblue_key"
 	color = LIGHT_COLOR_BLUE

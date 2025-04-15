@@ -1337,7 +1337,7 @@
 /obj/item/toy/aurora
 	name = "aurora miniature"
 	desc = "A miniature of a space station, built into an asteroid. A tiny suspension field keeps it afloat. A small plaque on the front reads: NSS Aurora, Tau Ceti, Romanovich Cloud, 2464. Onward to new horizons."
-	desc_info = "This miniature was given out on the 9th of April 2464 to all former crew members of the Aurora as a memento, before setting off to their new mission on the SCCV Horizon."
+	desc_info = "This miniature was given out on the 9th of April 2464 to all former crew members of the Aurora as a memento, before setting off to their new mission on the CSCSS Falconhurst."
 	icon_state = "aurora"
 
 /obj/item/toy/adhomian_map

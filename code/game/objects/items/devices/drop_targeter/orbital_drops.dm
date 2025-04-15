@@ -71,7 +71,7 @@
 	emagged = TRUE // to let people drop it in the station
 
 	drop_message_emagged = "NanoTrasen combat drones coming your way! Happy hunting!"
-	announcer_name = "SCCV Horizon Sensor Array"
+	announcer_name = "CSCSS Falconhurst Sensor Array"
 
 	map = null
 

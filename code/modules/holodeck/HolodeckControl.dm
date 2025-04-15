@@ -384,9 +384,9 @@ GLOBAL_LIST_EMPTY_TYPED(holodeck_controls, /obj/machinery/computer/holodeck_cont
 	density = 0
 	linkedholodeck_area = /area/holodeck/alphadeck
 
-/obj/machinery/computer/holodeck_control/Horizon
+/obj/machinery/computer/holodeck_control/Falconhurst
 	density = 0
 	linkedholodeck_area = /area/horizon/holodeck/alphadeck
 
-/obj/machinery/computer/holodeck_control/Horizon/beta
+/obj/machinery/computer/holodeck_control/Falconhurst/beta
 	linkedholodeck_area = /area/horizon/holodeck/betadeck

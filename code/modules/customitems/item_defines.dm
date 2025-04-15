@@ -1838,7 +1838,7 @@ All custom items with worn sprites must follow the contained sprite system: http
 /obj/item/clothing/suit/storage/toggle/fluff/freedom_coat //Renewed Antiquated Labcoat - Freedom Of Self Shackled By Unending Greed - lmwevil
 	name = "renewed antiquated labcoat"
 	desc = "An ancient labcoat from the Narrows, recently revitalized with extreme tailoring to become a symbol of unity between the Conglomerate and Dionae across the spur after the \
-	allowance of Dionae as Executive Officers aboard the Horizon. It must have cost a substantial sum to fix the century old labcoat back up to scratch. On the left arm is a beautifully \
+	allowance of Dionae as Executive Officers aboard the Falconhurst. It must have cost a substantial sum to fix the century old labcoat back up to scratch. On the left arm is a beautifully \
 	sewn on patch that reads \"A block\"."
 	icon = 'icons/obj/custom_items/freedom_coat.dmi'
 	icon_override = 'icons/obj/custom_items/freedom_coat.dmi'
@@ -1926,7 +1926,7 @@ All custom items with worn sprites must follow the contained sprite system: http
 	desc_extended = "A prototype exo-stellar skeleton suit, made of extremely expensive, custom-made and proprietary parts, allowing for the comfortable existence of an off-worlder in normal worlder conditions. \
 	Features microdoses of medicine in the air supply to aid in lung pain, electrostimulants to assist in muscle rehabilitation, and innumerable other features. Unfortunately, due to design limitations, \
 	it is only capable of maintaining a lower internal pressure when exposed to normal environments, and is not spaceworthy nor immune to environmental conditions. This particular model bears a small mark \
-	of Zeng-Hu Pharmaceuticals on the main back piece, and was largely designed by a collaborative effort of experts in their fields on the Horizon. A new future for off-worlders, or a money pit?"
+	of Zeng-Hu Pharmaceuticals on the main back piece, and was largely designed by a collaborative effort of experts in their fields on the Falconhurst. A new future for off-worlders, or a money pit?"
 	icon = 'icons/obj/custom_items/aayun_suit.dmi'
 	icon_state = "aayun_rig"
 	helm_type = /obj/item/clothing/head/lightrig/offworlder

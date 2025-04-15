@@ -894,7 +894,7 @@ ABSTRACT_TYPE(/obj/item/reagent_containers/food/snacks/bowl)
 
 /obj/item/reagent_containers/food/snacks/seafoodplatter
 	name = "north sixty sea platter"
-	desc = "While it lacks a traditional 'recipe', the North Sixty Sea Platter is a Xanan seafood platter focused on fresh, local seafood- fried, grilled, stewed, or raw- caught north of sixty degrees latitude. While there is no ocean on the Horizon, a faithful recreation of the famous side sauce can help adhere a few, more alien ingredients."
+	desc = "While it lacks a traditional 'recipe', the North Sixty Sea Platter is a Xanan seafood platter focused on fresh, local seafood- fried, grilled, stewed, or raw- caught north of sixty degrees latitude. While there is no ocean on the Falconhurst, a faithful recreation of the famous side sauce can help adhere a few, more alien ingredients."
 	icon = 'icons/obj/item/reagent_containers/food/cultural/human.dmi'
 	icon_state = "seafoodplatter"
 	reagents_to_add = list(/singleton/reagent/nutriment = 2, /singleton/reagent/nutriment/protein/seafood = 4, /singleton/reagent/nutriment/protein/seafood/mollusc = 4)

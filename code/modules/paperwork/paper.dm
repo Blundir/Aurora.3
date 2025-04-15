@@ -737,7 +737,7 @@
 /obj/item/paper/incident/New()
 	var/T = parsepencode({"\[center\]\[logo_scc\]\[/center\]
 		\[center\]\[b\]\[i\]Encoded SCC Security Incident Report\[/b\]\[/i\]\[hr\]
-		\[small\]FOR USE BY <b>SCCV HORIZON</b> SECURITY ONLY\[/small\]\[br\]
+		\[small\]FOR USE BY <b>CSCSS FALCONHURST</b> SECURITY ONLY\[/small\]\[br\]
 		\[barcode\]\[/center\]"})
 	info = T
 
@@ -816,7 +816,7 @@ ABSTRACT_TYPE(/obj/item/paper/fluff)
 
 	update_space(src.info)
 
-// Used in the deck 3 cafe on the SCCV Horizon.
+// Used in the deck 3 cafe on the CSCSS Falconhurst.
 /obj/item/paper/fluff/microwave
 	name = "\improper RE: Where are our microwaves?"
 	desc = "A paper."
@@ -826,20 +826,20 @@ ABSTRACT_TYPE(/obj/item/paper/fluff)
 		<BR>We apologize for the lack of a microwave. As compensation, employees are given a donut box. Please enjoy.<BR>-<font face=\"Courier New\"><i>SCC Internal \
 		Affairs</i></font></font>"
 
-/// Used in the bunker on the SCCV Horizon.
+/// Used in the bunker on the CSCSS Falconhurst.
 /obj/item/paper/fluff/bunker
 	name = "bunker evacuation route instructions"
 	desc = "A paper. It has evacuation route instructions printed on it."
-	info = "<font face=\"Verdana\"><center>SCCV Horizon Command Bunker<br>Evacuation Route Instructions</center><font size=\"2\"><ol><li>Put on the emergency \
+	info = "<font face=\"Verdana\"><center>CSCSS Falconhurst Command Bunker<br>Evacuation Route Instructions</center><font size=\"2\"><ol><li>Put on the emergency \
 		welding goggles.</li><li>Grasp the emergency welding tool firmly in your hands, turn it on, and start cutting a hole in the floor.</li><li>Wait for \
 		the newly created hole to cool.<li>Use the emergency crowbar to pry away the metal.</li><li>Deploy the emergency ladder.</li><li>Dispose of the used \
 		equipment, if necessary.</li></ol></font></font>"
 
-/// Used in the bridge on the SCCV Horizon
+/// Used in the bridge on the CSCSS Falconhurst
 /obj/item/paper/fluff/bridge
 	name = "bridge evacuation route instructions"
 	desc = "A paper. It has evacuation route instructions printed on it."
-	info = "<font face=\"Verdana\"><center>SCCV Horizon Command <br>Evacuation Route Instructions</center><font size=\"2\"><ol><li>Put on the emergency \
+	info = "<font face=\"Verdana\"><center>CSCSS Falconhurst Command <br>Evacuation Route Instructions</center><font size=\"2\"><ol><li>Put on the emergency \
 		welding goggles.</li><li>Grasp the emergency welding tool firmly in your hands, turn it on, and start cutting a hole in the floor.</li><li>Wait for \
 		the newly created hole to cool.<li>Use the emergency crowbar to pry away the metal.</li><li>Deploy the emergency ladder.</li><li>Dispose of the used \
 		equipment, if necessary.</li></ol></font></font>"

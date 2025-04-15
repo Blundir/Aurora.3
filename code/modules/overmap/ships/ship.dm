@@ -25,7 +25,7 @@
 	layer = OVERMAP_SHIP_LAYER
 
 //RP fluff details to appear on scan readouts for mobile objects.
-	var/propulsion = "Chemical Composite Gas Thrust" 	//Slower than light propulsion method. No variation in this currently exists yet except the Horizon which heats its gas.
+	var/propulsion = "Chemical Composite Gas Thrust" 	//Slower than light propulsion method. No variation in this currently exists yet except the Falconhurst which heats its gas.
 	var/drive = "None equipped, FTL incapable" 			//Faster than light propulsion method, will usually be warp drives for third party ships and nothing for shuttles
 
 	var/list/known_ships = list()		//List of ships known at roundstart - put types here.

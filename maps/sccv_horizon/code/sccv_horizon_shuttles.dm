@@ -54,7 +54,7 @@
 		NAV_HORIZON_EXTERIOR_ALL_SNEAKY,
 		)
 
-	announcer = "SCCV Horizon Sensor Array"
+	announcer = "CSCSS Falconhurst Sensor Array"
 	arrival_message = "Attention, the radar systems have detected a small spacecraft approaching the ship's perimeter."
 	departure_message = "Attention, the radar systems have detected a small spacecraft leaving the ship's perimeter. "
 
@@ -86,7 +86,7 @@
 		NAV_HORIZON_EXTERIOR_ALL_SNEAKY,
 		)
 
-	announcer = "SCCV Horizon Sensor Array"
+	announcer = "CSCSS Falconhurst Sensor Array"
 	arrival_message = "Attention, the radar systems have detected a spacecraft approaching the ship's perimeter."
 	departure_message = "Attention, the radar systems have detected a spacecraft leaving the ship's perimeter. "
 
@@ -208,7 +208,7 @@
 	waypoint_offsite = "nav_cargo_shuttle_start"
 
 /obj/effect/shuttle_landmark/supply/horizon/start
-	name = "Horizon Cargo Shuttle Central Command Dock"
+	name = "Falconhurst Cargo Shuttle Central Command Dock"
 	landmark_tag = "nav_cargo_shuttle_start"
 	base_turf = /turf/unsimulated/floor/plating
 	base_area = /area/centcom

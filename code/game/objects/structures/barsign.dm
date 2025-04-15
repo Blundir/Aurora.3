@@ -129,7 +129,7 @@
 	name = "Toolbox Tavern"
 	icon_state = "Toolbox Tavern"
 	desc = "A popular bar at an Hepheastus Industries shipyard."
-	desc_extended = "The name of the after-hours bar, located at the Hepheastus Industries shipyard the Horizon was built. To remember the great lengths and sacrifices that were made to bring this vessel to life."
+	desc_extended = "The name of the after-hours bar, located at the Hepheastus Industries shipyard the Falconhurst was built. To remember the great lengths and sacrifices that were made to bring this vessel to life."
 /singleton/sign/double/bar/maltese_falcon
 	name = "Maltese Falcon"
 	icon_state = "Maltese Falcon"
@@ -146,10 +146,10 @@
 	desc = "The name of a bar, located at Pluto's biggest spaceport."
 	desc_extended = "People's Preferred is the name of the drinking hole at Pluto's biggest spaceport. Everyone stops there and everyone loves it there. It's what the people prefer, apparently."
 /singleton/sign/double/kitchen/event_horizon // Start of the kitchen signs. Don't mix it up.
-	name = "Event Horizon"
-	icon_state = "Event Horizon"
-	desc = "The SCCV Horizon's kitchen franchise sign."
-	desc_extended = "The SCCV Horizon's dining area was the testing ground for the SCC to experiment with food franchising. The goal was to provide better food perparing processes, food quality and, of course, to maybe capitalize on this. To remember where it all started, the name 'Event Horizon' was chosen."
+	name = "Event Falconhurst"
+	icon_state = "Event Falconhurst"
+	desc = "The CSCSS Falconhurst's kitchen franchise sign."
+	desc_extended = "The CSCSS Falconhurst's dining area was the testing ground for the SCC to experiment with food franchising. The goal was to provide better food perparing processes, food quality and, of course, to maybe capitalize on this. To remember where it all started, the name 'Event Falconhurst' was chosen."
 /singleton/sign/double/kitchen/paradise_sands
 	name = "Paradise Sands"
 	icon_state = "Paradise Sands"

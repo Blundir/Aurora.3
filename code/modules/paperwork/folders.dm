@@ -209,7 +209,7 @@
 	. = ..()
 	var/obj/item/paper/R = new(src)
 	R.set_content("leviathan zero-point artillery instructions", "<table><cell><hr><small><center><img src=scclogo.png><br><b>Stellar Corporate Conglomerate<br> \
-	SCCV Horizon</b><hr><b>Form 0000<br> \
+	CSCSS Falconhurst</b><hr><b>Form 0000<br> \
 	<large>Confidential Information Report</large></b></center><hr> \
 	<b>Classification Index:</b> <font color='red'>TOP SECRET</font>, protect at all costs <field><hr><b>Entrusted Personnel:</b> Command, Engineering<br> <field>\
 	<b>Subject Designation:</b> Leviathan Prototype Zero-Point Artillery <br><field> \
@@ -224,15 +224,15 @@
 	Once that is done, the key must be retrieved from its case in the Captain's office. It must then be placed in the activation terminal in the bridge. \
 	The key must then be twisted and, finally, the button to fire the Leviathan will be uncovered and it may be pressed.<field><br> \
 	<b>Subject Description:</b> The Leviathan's one and only intended purpose is to annihilate any single target \
-	that proves to be an existential threat to the SCCV Horizon and all of its valuable designs and crew. The weapon achieves this by pushing and weaponizing \
+	that proves to be an existential threat to the CSCSS Falconhurst and all of its valuable designs and crew. The weapon achieves this by pushing and weaponizing \
 	already understood warp drive technology to a scale only currently matched by phoron fusion bombs.<br> \
 	In layman's terms, an extreme amount of energy is at first used by several high-level warp generators, which instead of bending space around the ship, \
 	creates a \"warp funnel\" around the outer half of the weapon. Every bit of energy remaining is then fired out through the funnel, \
 	accelerating it into a powerful beam travelling at several times the speed of light. <br>No currently known hull nor shield configuration is able to withstand the attack: \
 	the beam is expected to inflict too much structural damage for any one vessel to continue fighting.<br> \
-	The power draw of a single shot is greater than a single jump operation into bluespace, meaning each use will leave the Horizon vulnerable to any other threats that remain.<br>\
+	The power draw of a single shot is greater than a single jump operation into bluespace, meaning each use will leave the Falconhurst vulnerable to any other threats that remain.<br>\
 	To date, the prototype has not been tested against stars, planets, or other supermassive targets. While its use should be limited to catastrophic scenarios, \
-	the Horizon is expected to gather as much field data as possible throughout its journey.<br>")
+	the Falconhurst is expected to gather as much field data as possible throughout its journey.<br>")
 
 	//stamp the paper
 	var/image/stampoverlay = image('icons/obj/bureaucracy.dmi')

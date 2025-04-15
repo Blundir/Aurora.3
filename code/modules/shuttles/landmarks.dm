@@ -134,7 +134,7 @@
 	..()
 	name = "[initial(name)] ([x],[y])"
 
-//Subtypes for exclusively Horizon shuttles
+//Subtypes for exclusively Falconhurst shuttles
 /obj/effect/shuttle_landmark/automatic/intrepid/sector_set(var/obj/effect/overmap/visitable/O)
 	..()
 	name = "SCCV Intrepid Landing Beacon ([x],[y])"
@@ -149,7 +149,7 @@
 
 //Subtype that calls explosion on init to clear space for shuttles
 /obj/effect/shuttle_landmark/automatic/clearing
-	dir = NORTH // compatible with Horizon's shuttles
+	dir = NORTH // compatible with Falconhurst's shuttles
 	var/radius = LANDING_ZONE_RADIUS
 
 /obj/effect/shuttle_landmark/automatic/clearing/LateInitialize()

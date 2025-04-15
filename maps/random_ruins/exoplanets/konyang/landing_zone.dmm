@@ -1990,7 +1990,7 @@
 	},
 /obj/structure/table/wood,
 /obj/machinery/photocopier/faxmachine{
-	department = "Konyang SCC Forward Operating Post - Horizon Crew Alpha LZ"
+	department = "Konyang SCC Forward Operating Post - Falconhurst Crew Alpha LZ"
 	},
 /turf/simulated/floor/wood,
 /area/konyang_landing_zone/command_center)

@@ -10,7 +10,7 @@ GLOBAL_DATUM(map_overmap, /area/overmap)
 	sensor_range_override = TRUE
 	/// Actual name of the object.
 	var/designation
-	/// Imagine a ship or station's class. "NTCC" Odin, "SCCV" Horizon, ...
+	/// Imagine a ship or station's class. "NTCC" Odin, "SCCV" Falconhurst, ...
 	var/class
 	unknown_id = "Bogey"
 	var/obfuscated_name = "unidentified object"

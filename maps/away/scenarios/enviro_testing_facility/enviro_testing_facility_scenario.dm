@@ -1,7 +1,7 @@
 /singleton/scenario/enviro_testing_facility
 	name = "Environmental Testing Facility Zoya"
 	desc = "A environmental testing facility on a barren planet, in a otherwise uninteresting sector. \
-			SCCV Horizon, the closest ship in this sector, was dispatched to investigate."
+			CSCSS Falconhurst, the closest ship in this sector, was dispatched to investigate."
 	scenario_site_id = "enviro_testing_facility"
 
 	possible_scenario_types = list(SCENARIO_TYPE_NONCANON, SCENARIO_TYPE_CANON)
@@ -35,7 +35,7 @@
 /singleton/scenario_announcements/enviro_testing_facility
 	horizon_announcement_title = "SCC Central Command Outpost"
 	horizon_unrestrict_landing_message = "\
-		Greetings, SCCV Horizon. We have observed some unusual extranet traffic \
+		Greetings, CSCSS Falconhurst. We have observed some unusual extranet traffic \
 		from a environmental testing facility in your current sector. \
 		You are to investigate and report back of your findings.\
 	"
