@@ -2,7 +2,7 @@
 	filename = "atmoscontrol"
 	filedesc = "Atmosphere Control"
 	program_icon_state = "atmos_control"
-	program_key_icon_state = "cyan_key"
+	//program_key_icon_state = "cyan_key"
 	extended_desc = "This program allows remote control of air alarms around the station. This program can not be run on tablet computers."
 	requires_access_to_run = PROGRAM_ACCESS_LIST_ONE
 	required_access_run =  list(ACCESS_ATMOSPHERICS)

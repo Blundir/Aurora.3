@@ -1,7 +1,8 @@
 /obj/structure/curtain
 	name = "curtain"
 	icon = 'icons/obj/curtain.dmi'
-	icon_state = "closed"
+	icon_state = "normal_open"
+	var/base_icon_state = "normal"
 	layer = ABOVE_WINDOW_LAYER
 	opacity = 1
 	density = 0
@@ -16,7 +17,7 @@
 	AddComponent(/datum/component/turf_hand)
 
 /obj/structure/curtain/open
-	icon_state = "open"
+	icon_state = "normal_open"
 	layer = ABOVE_HUMAN_LAYER
 	opacity = 0
 
@@ -65,10 +66,10 @@
 /obj/structure/curtain/proc/toggle()
 	src.set_opacity(!src.opacity)
 	if(opacity)
-		icon_state = "closed"
+		icon_state = base_icon_state + "_closed"
 		layer = ABOVE_HUMAN_LAYER
 	else
-		icon_state = "open"
+		icon_state = initial(icon_state) + "_open"
 		layer = ABOVE_WINDOW_LAYER
 
 /obj/structure/curtain/black
@@ -79,12 +80,15 @@
 	name = "plastic curtain"
 	color = "#B8F5E3"
 	anchored = FALSE
+	icon_state = "medical_closed"
+	base_icon_state = "medical"
 	alpha = 200
 	curtain_material = MATERIAL_PLASTIC
 
 /obj/structure/curtain/open/medical
 	name = "plastic curtain"
-	color = "#B8F5E3"
+	icon_state = "medical_open"
+	base_icon_state = "medical"
 	anchored = FALSE
 	alpha = 200
 	curtain_material = MATERIAL_PLASTIC
@@ -100,11 +104,16 @@
 
 /obj/structure/curtain/open/shower
 	name = "shower curtain"
-	color = "#ACD1E9"
+	icon_state = "shower_open"
+	base_icon_state = "shower"
 	alpha = 200
 
 /obj/structure/curtain/open/shower/engineering
+	icon_state = "normal_open"
+	base_icon_state = "normal"
 	color = "#FFA500"
 
 /obj/structure/curtain/open/shower/security
+	icon_state = "normal_open"
+	base_icon_state = "normal"
 	color = "#AA0000"

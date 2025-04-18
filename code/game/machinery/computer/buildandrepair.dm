@@ -98,24 +98,24 @@
 					to_chat(user, SPAN_WARNING("You need two sheets of glass to put in the glass panel."))
 					return TRUE
 				playsound(src.loc, 'sound/items/Deconstruct.ogg', 50, 1)
-				to_chat(user, SPAN_NOTICE("You start to put in the glass keyboard."))
+				to_chat(user, SPAN_NOTICE("You start to put in the monitor glass."))
 				if(do_after(user, 2 SECONDS, src, DO_REPAIR_CONSTRUCT) && state == 3)
 					if (G.use(2))
-						to_chat(user, SPAN_NOTICE("You put in the glass keyboard."))
+						to_chat(user, SPAN_NOTICE("You put in the monitor glass."))
 						src.state = 4
 						src.icon_state = "4"
 				return TRUE
 		if(4)
 			if(attacking_item.iscrowbar())
 				attacking_item.play_tool_sound(get_turf(src), 50)
-				to_chat(user, SPAN_NOTICE("You remove the glass keyboard."))
+				to_chat(user, SPAN_NOTICE("You remove the monitor glass."))
 				src.state = 3
 				src.icon_state = "3"
 				new /obj/item/stack/material/glass( src.loc, 2 )
 				return TRUE
 			if(attacking_item.isscrewdriver())
 				attacking_item.play_tool_sound(get_turf(src), 50)
-				to_chat(user, SPAN_NOTICE("You connect the glass keyboard."))
+				to_chat(user, SPAN_NOTICE("You attach the monitor glass."))
 				var/B = new src.circuit.build_path ( src.loc )
 				src.circuit.construct(B)
 				qdel(src)

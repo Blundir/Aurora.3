@@ -2,7 +2,7 @@
 	filename = "pai_radio"
 	filedesc = "Radio Configuration"
 	program_icon_state = "generic"
-	program_key_icon_state = "green_key"
+	//program_key_icon_state = "green_key"
 	extended_desc = "This program is used to configure the integrated pAI radio."
 	size = 0
 

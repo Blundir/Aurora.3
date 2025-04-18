@@ -131,10 +131,10 @@
 /obj/machinery/computer/general_air_control
 	name = "atmosphere monitoring console"
 	desc = "A console that gives an atmospheric condition readout of various sensors connected to it."
+	icon_state = "computer_mini"
+	icon_broken = "computer_mini-broken"
 	icon_screen = "tank"
-	icon_keyboard = "cyan_key"
-	icon_keyboard_emis = "cyan_key_mask"
-	light_color = LIGHT_COLOR_CYAN
+	light_color = LIGHT_COLOR_BLUE
 
 	var/frequency = 1439
 	var/list/sensors = list()
@@ -420,8 +420,6 @@
 
 /obj/machinery/computer/general_air_control/fuel_injection
 	icon_screen = "alert:0"
-	icon_keyboard = "cyan_key"
-	icon_keyboard_emis = "cyan_key_mask"
 	light_color = LIGHT_COLOR_CYAN
 	ui_type = "AtmosControlInjector"
 

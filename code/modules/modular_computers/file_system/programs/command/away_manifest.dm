@@ -3,7 +3,7 @@
 	filedesc = "Shuttle Manifest Program"
 	extended_desc = "Used to view the manifest of the Falconhurst's shuttles."
 	program_icon_state = "menu"
-	program_key_icon_state = "lightblue_key"
+	//program_key_icon_state = "lightblue_key"
 	color = LIGHT_COLOR_BLUE
 	size = 8
 	requires_ntnet = TRUE

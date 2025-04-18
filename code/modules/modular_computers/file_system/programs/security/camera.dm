@@ -33,7 +33,7 @@
 	filename = "cammon"
 	filedesc = "Camera Monitoring"
 	program_icon_state = "cameras"
-	program_key_icon_state = "yellow_key"
+	//program_key_icon_state = "yellow_key"
 	extended_desc = "This program allows remote access to station's camera system. Some camera networks may have additional access requirements."
 	size = 12
 	available_on_ntnet = TRUE

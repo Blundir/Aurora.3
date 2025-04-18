@@ -2,7 +2,7 @@
 	filename = "powermonitor"
 	filedesc = "Power Monitoring"
 	program_icon_state = "power_monitor"
-	program_key_icon_state = "yellow_key"
+	//program_key_icon_state = "yellow_key"
 	extended_desc = "This program connects to sensors around the station to provide information about electrical systems."
 	ui_header = "power_norm.gif"
 	required_access_run = ACCESS_ENGINE

@@ -56,8 +56,6 @@ pixel_x = 8;
 	if(id)
 		ringers = new(id, src)
 
-	if(src.dir & NORTH)
-		alpha = 127
 	update_icon()
 
 	if(!mapload)

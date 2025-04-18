@@ -1,7 +1,7 @@
 /datum/computer_file/program/alarm_monitor
 	filename = "alarmmonitor"
 	filedesc = "Alarm Monitoring"
-	program_key_icon_state = "cyan_key"
+	//program_key_icon_state = "cyan_key"
 	ui_header = "alarm_green.gif"
 	program_icon_state = "alert:0"
 	extended_desc = "This program provides visual interface for station's alarm system."

@@ -113,9 +113,8 @@
 
 /obj/item/stack/material/aluminium
 	name = "aluminium"
-	icon_state = "sheet-metal"
+	icon_state = "sheet-aluminum"
 	default_type = MATERIAL_ALUMINIUM
-	apply_colour = TRUE
 	icon_has_variants = TRUE
 
 /obj/item/stack/material/aluminium/full/Initialize()
@@ -125,9 +124,8 @@
 
 /obj/item/stack/material/lead
 	name = "lead"
-	icon_state = "sheet-silver"
+	icon_state = "sheet-lead"
 	default_type = MATERIAL_LEAD
-	apply_colour = TRUE
 	icon_has_variants = TRUE
 
 /obj/item/stack/material/lead/full/Initialize()

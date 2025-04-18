@@ -2,7 +2,7 @@
 	filename = "implnttrckr"
 	filedesc = "Remote Implant Tracking"
 	program_icon_state = "security"
-	program_key_icon_state = "yellow_key"
+	//program_key_icon_state = "yellow_key"
 	extended_desc = "This program allows authorized security personnel to track and remotely interface with active implants."
 	required_access_run = ACCESS_ARMORY
 	requires_ntnet = TRUE

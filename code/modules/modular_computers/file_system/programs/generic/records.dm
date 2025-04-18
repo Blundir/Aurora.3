@@ -4,7 +4,7 @@
 	extended_desc = "Used to view, edit and maintain records."
 
 	program_icon_state = "generic"
-	program_key_icon_state = "green_key"
+	//program_key_icon_state = "green_key"
 	color = LIGHT_COLOR_BLUE
 	available_on_ntnet = FALSE
 	size = 6
@@ -55,7 +55,7 @@
 	edit_type = RECORD_MEDICAL
 	default_screen = "medical"
 	program_icon_state = "medical_record"
-	program_key_icon_state = "teal_key"
+	//program_key_icon_state = "teal_key"
 	color = LIGHT_COLOR_CYAN
 
 /datum/computer_file/program/records/security
@@ -72,7 +72,7 @@
 	edit_type = RECORD_SECURITY
 	default_screen = "security"
 	program_icon_state = "security_record"
-	program_key_icon_state = "yellow_key"
+	//program_key_icon_state = "yellow_key"
 	color = LIGHT_COLOR_YELLOW
 
 /datum/computer_file/program/records/employment
@@ -89,7 +89,7 @@
 	records_type = RECORD_GENERAL | RECORD_SECURITY
 	edit_type = RECORD_GENERAL
 	program_icon_state = "employment_record"
-	program_key_icon_state = "lightblue_key"
+	//program_key_icon_state = "lightblue_key"
 	color = LIGHT_COLOR_BLUE
 
 /datum/computer_file/program/records/pai

@@ -8,10 +8,9 @@ GLOBAL_LIST_EMPTY(minor_air_alarms)
 	name = "atmospheric alert computer"
 	desc = "Used to access atmospheric sensors."
 	circuit = /obj/item/circuitboard/atmos_alert
-
+	icon_state = "computer_mini"
+	icon_broken = "computer_mini-broken"
 	icon_screen = "alert:0"
-	icon_keyboard = "cyan_key"
-	icon_keyboard_emis = "cyan_key_mask"
 	light_color = LIGHT_COLOR_CYAN
 
 /obj/machinery/computer/atmos_alert/Initialize()
@@ -51,12 +50,15 @@ GLOBAL_LIST_EMPTY(minor_air_alarms)
 		var/list/alarms = GLOB.atmosphere_alarm.major_alarms()
 		if(alarms.len)
 			icon_screen = "alert:2"
+			light_color = LIGHT_COLOR_RED
 		else
 			alarms = GLOB.atmosphere_alarm.minor_alarms()
 			if(alarms.len)
 				icon_screen = "alert:1"
+				light_color = LIGHT_COLOR_YELLOW
 			else
 				icon_screen = initial(icon_screen)
+				light_color = initial(light_color)
 	..()
 
 /obj/machinery/computer/atmos_alert/Topic(href, href_list)

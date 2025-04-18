@@ -34,7 +34,7 @@ export const ModeWindow = (props, context) => {
 
   return (
     <Section
-      title={'Orion Express Goods Trading' + ' (Balance: ' + data.bank + '电)'}
+      title={'Orion Express Goods Trading' + ' (Balance: ' + data.bank + '$)'}
       buttons={
         <>
           <Button
@@ -155,17 +155,17 @@ export const Hailed = (props, context) => {
           <LabeledList>
             <LabeledList.Item label="Bribe">
               <Button
-                content="100电"
+                content="100$"
                 tooltip="This will pay them an amount of credits to stay in the sector longer."
                 onClick={() => act('PRG_bribe', { PRG_bribe: 100 })}
               />
               <Button
-                content="500电"
+                content="500$"
                 tooltip="This will pay them an amount of credits to stay in the sector longer."
                 onClick={() => act('PRG_bribe', { PRG_bribe: 100 })}
               />
               <Button
-                content="1000电"
+                content="1000$"
                 tooltip="This will pay them an amount of credits to stay in the sector longer."
                 onClick={() => act('PRG_bribe', { PRG_bribe: 1000 })}
               />
@@ -193,7 +193,7 @@ export const MainMenu = (props, context) => {
   return (
     <Section
       title={
-        'Orion Express Trade Interface' + ' (Balance: ' + data.bank + '电)'
+        'Orion Express Trade Interface' + ' (Balance: ' + data.bank + '$)'
       }>
       <LabeledControls>
         <LabeledControls.Item>

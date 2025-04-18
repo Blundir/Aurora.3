@@ -184,8 +184,6 @@ GLOBAL_LIST_INIT_TYPED(allConsoles, /obj/machinery/requests_console, list())
 	if(building)
 		if(dir)
 			src.set_dir(dir)
-		if(src.dir & NORTH)
-			alpha = 127
 		update_icon()
 
 		if(!mapload)
@@ -193,8 +191,6 @@ GLOBAL_LIST_INIT_TYPED(allConsoles, /obj/machinery/requests_console, list())
 
 		return
 
-	if(dir & NORTH)
-		alpha = 127
 
 	announcement.title = "[department] announcement"
 	announcement.newscast = 1

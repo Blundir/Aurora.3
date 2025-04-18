@@ -3,7 +3,7 @@
 	filedesc = "Orion Express Goods Trading"
 	extended_desc = "Allows communication and trade between passing vessels, even while jumping."
 	program_icon_state = "comm"
-	program_key_icon_state = "lightblue_key"
+	//program_key_icon_state = "lightblue_key"
 	requires_ntnet = 0
 	available_on_ntnet = 0
 	size = 12

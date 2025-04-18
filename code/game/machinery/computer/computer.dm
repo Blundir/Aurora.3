@@ -1,6 +1,6 @@
 /obj/machinery/computer
 	name = "computer"
-	icon = 'icons/obj/machinery/modular_console.dmi'
+	icon = 'icons/obj/computer.dmi'
 	icon_state = "computer"
 	density = 1
 	anchored = 1.0
@@ -14,8 +14,8 @@
 
 	var/icon_screen = "computer_generic"
 	var/icon_scanline
-	var/icon_keyboard = "green_key"
-	var/icon_keyboard_emis = "green_key_mask"
+	var/icon_keyboard = ""
+	var/icon_keyboard_emis = ""
 	var/light_range_on = 2
 	var/light_power_on = 1.3
 	var/overlay_layer
@@ -107,7 +107,7 @@
 			append_string += "_L"
 		if(RC && RC.dir == dir && initial(RC.icon_state) == "computer")
 			append_string += "_R"
-		icon_state = "computer[append_string]"
+		icon_state = "[initial(icon_state)][append_string]"
 
 	if(stat & BROKEN)
 		icon_state = "[icon_state]-broken"

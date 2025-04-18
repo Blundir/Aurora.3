@@ -2,7 +2,7 @@
 	filename = "penalrobotics"
 	filedesc = "Remote Penal Monitoring"
 	program_icon_state = "security"
-	program_key_icon_state = "yellow_key"
+	//program_key_icon_state = "yellow_key"
 	extended_desc = "This program allows monitoring and control of active penal robotics."
 	required_access_run = ACCESS_ARMORY
 	required_access_download = ACCESS_ARMORY

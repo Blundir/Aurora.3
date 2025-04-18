@@ -483,8 +483,6 @@
 /obj/machinery/computer/bluespacedrive
 	name = "\improper Bluespace Drive Control Console"
 	desc = "Used to control the bluespace drive."
-	icon_keyboard = "lightblue_key"
-	icon_keyboard_emis = "lightblue_key_mask"
 	light_color = LIGHT_COLOR_BLUE
 
 	/// The bluespace drive (`/obj/machinery/bluespacedrive`) that this console controls

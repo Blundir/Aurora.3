@@ -2,7 +2,7 @@
 	filename = "sensormonitor"
 	filedesc = "Suit Sensors Monitoring"
 	program_icon_state = "crew"
-	program_key_icon_state = "teal_key"
+	//program_key_icon_state = "teal_key"
 	extended_desc = "This program connects to life signs monitoring system to provide basic information on crew health."
 	required_access_run = ACCESS_MEDICAL
 	required_access_download = ACCESS_MEDICAL

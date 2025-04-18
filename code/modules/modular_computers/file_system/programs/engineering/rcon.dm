@@ -2,7 +2,7 @@
 	filename = "rcon"
 	filedesc = "RCON Remote Control"
 	program_icon_state = "power_monitor"
-	program_key_icon_state = "yellow_key"
+	//program_key_icon_state = "yellow_key"
 	extended_desc = "This program allows remote control of power distribution systems around the station. This program can not be run on tablet computers."
 	required_access_run = ACCESS_ENGINE
 	required_access_download = ACCESS_CE

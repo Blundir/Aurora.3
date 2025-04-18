@@ -2,7 +2,7 @@
 	filename = "cardmod"
 	filedesc = "ID Card Modification Program"
 	program_icon_state = "id"
-	program_key_icon_state = "lightblue_key"
+	//program_key_icon_state = "lightblue_key"
 	extended_desc = "Program for programming employee ID cards to access parts of the station."
 	required_access_run = ACCESS_CHANGE_IDS
 	required_access_download = ACCESS_CHANGE_IDS

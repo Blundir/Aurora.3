@@ -141,7 +141,7 @@ export const AuthenticatedWindow = (props, context) => {
       <Box as="span" bold>
         {data.money}
       </Box>
-      电.
+      $.
       <LabeledList>
         <LabeledList.Item label="Withdraw">
           <NumberInput
@@ -150,7 +150,7 @@ export const AuthenticatedWindow = (props, context) => {
             width={3}
             maxValue={data.money}
             animated
-            unit="电"
+            unit="$"
             step={5}
             stepPixelSize={5}
             onChange={(e, v) => setWithdraw(v)}
@@ -236,7 +236,7 @@ export const AuthenticatedWindow = (props, context) => {
                     width={3}
                     maxValue={data.money}
                     animated
-                    unit="电"
+                    unit="$"
                     step={5}
                     stepPixelSize={5}
                     onChange={(e, v) => setFunds(v)}

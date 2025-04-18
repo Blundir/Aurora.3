@@ -3,7 +3,7 @@
 	filedesc = "Docking Ports Management Program"
 	extended_desc = "Used to manage the docks, hangars, and any docked ships."
 	program_icon_state = "docks"
-	program_key_icon_state = "lightblue_key"
+	//program_key_icon_state = "lightblue_key"
 	color = LIGHT_COLOR_BLUE
 	size = 8
 	requires_ntnet = TRUE

@@ -3,9 +3,7 @@
 /obj/machinery/computer/pod
 	name = "pod launch control console"
 	desc = "A control console for launching pods. Some people prefer firing Mechas."
-	icon_screen = "command"
-	icon_keyboard = "green_key"
-	icon_keyboard_emis = "green_key_mask"
+	icon_screen = "computer_generic"
 	light_color = LIGHT_COLOR_GREEN
 	circuit = /obj/item/circuitboard/pod
 	var/id = 1.0

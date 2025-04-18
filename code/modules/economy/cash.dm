@@ -180,7 +180,7 @@
 	if(distance > 2 && user != loc)
 		return
 	. += SPAN_NOTICE("The charge card's owner is [src.owner_name].")
-	. += SPAN_NOTICE("It has [src.worth]电 left.")
+	. += SPAN_NOTICE("It has [src.worth]$ left.")
 
 /obj/item/spacecash/ewallet/c2000
 	worth = 2000

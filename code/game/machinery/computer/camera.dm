@@ -3,9 +3,9 @@
 	name = "security camera monitor"
 	desc = "Used to access the various cameras on the station."
 	icon_screen = "cameras"
-	icon_keyboard = "yellow_key"
-	icon_keyboard_emis = "yellow_key_mask"
-	light_color = LIGHT_COLOR_YELLOW
+	icon_state = "computer_mini_sec"
+	icon_broken = "computer_mini_sec-broken"
+	light_color = LIGHT_COLOR_CYAN
 	var/current_network = null
 	var/obj/machinery/camera/current_camera = null
 	var/last_pic = 1.0
@@ -272,8 +272,8 @@
 	name = "outpost camera monitor"
 	desc = "Used to access the various cameras on the outpost."
 	icon_screen = "miningcameras"
-	icon_keyboard = "purple_key"
-	icon_keyboard_emis = "purple_key_mask"
+	icon_state = "computer_mini"
+	icon_broken = "computer_mini-broken"
 	light_color = LIGHT_COLOR_PURPLE
 	network = list("MINE")
 	circuit = /obj/item/circuitboard/security/mining
@@ -282,20 +282,20 @@
 	name = "engineering camera monitor"
 	desc = "Used to monitor fires and breaches."
 	icon_screen = "engineeringcameras"
-	icon_keyboard = "yellow_key"
-	icon_keyboard_emis = "yellow_key_mask"
+	icon_state = "computer_mini"
+	icon_broken = "computer_mini-broken"
 	light_color = LIGHT_COLOR_YELLOW
 	circuit = /obj/item/circuitboard/security/engineering
 
 /obj/machinery/computer/security/engineering/terminal
 	name = "engineering camera monitor"
-	icon = 'icons/obj/machinery/modular_terminal.dmi'
+	icon_state = "computer_mini"
+	icon_broken = "computer_mini-broken"
 	icon_screen = "engines"
-	icon_keyboard = "power_key"
-	icon_keyboard_emis = "power_key_mask"
 	is_connected = TRUE
 	has_off_keyboards = TRUE
 	can_pass_under = FALSE
+	light_color = LIGHT_COLOR_YELLOW
 	light_power_on = 1
 
 /obj/machinery/computer/security/engineering/Initialize()
@@ -306,10 +306,8 @@
 /obj/machinery/computer/security/nuclear
 	name = "head mounted camera monitor"
 	desc = "Used to access the built-in cameras in helmets."
-	icon_screen = "syndicam"
-	icon_keyboard = "red_key"
-	icon_keyboard_emis = "red_key_mask"
-	light_color = LIGHT_COLOR_RED
+	icon_screen = "cameras"
+	light_color = LIGHT_COLOR_CYAN
 	network = list(NETWORK_MERCENARY)
 	circuit = null
 
@@ -321,8 +319,6 @@
 	name = "camera monitor terminal"
 	icon = 'icons/obj/machinery/modular_terminal.dmi'
 	icon_screen = "cameras"
-	icon_keyboard = "security_key"
-	icon_keyboard_emis = "security_key_mask"
 	is_connected = TRUE
 	has_off_keyboards = TRUE
 	can_pass_under = FALSE

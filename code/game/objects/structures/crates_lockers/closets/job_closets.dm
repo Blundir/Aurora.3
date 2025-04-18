@@ -64,7 +64,8 @@
 /obj/structure/closet/lawcloset
 	name = "legal closet"
 	desc = "It's a storage unit for courtroom apparel and items."
-	icon_door = "blue"
+	icon_state = "white"
+	icon_door = "white-blue"
 
 /obj/structure/closet/lawcloset/fill()
 	new /obj/item/clothing/under/lawyer/red(src)

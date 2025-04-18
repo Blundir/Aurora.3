@@ -3,7 +3,7 @@
 	filedesc = "Crusher Control"
 	extended_desc = "Application to Control the Crusher"
 	program_icon_state = "command"
-	program_key_icon_state = "green_key"
+	//program_key_icon_state = "green_key"
 	size = 8
 	requires_ntnet = FALSE
 	available_on_ntnet = FALSE

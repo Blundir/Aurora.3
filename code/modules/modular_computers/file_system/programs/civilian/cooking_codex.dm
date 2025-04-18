@@ -2,7 +2,7 @@
 	filename = "cookcodex"
 	filedesc = "Cooking Codex"
 	program_icon_state = "generic"
-	program_key_icon_state = "teal_key"
+	//program_key_icon_state = "teal_key"
 	extended_desc = "Useful program to view cooking recipes."
 	size = 2
 	required_access_download = null

@@ -25,9 +25,9 @@ export const NTOSMain = (props, context) => {
   const { act, data } = useBackend<NTOSMainData>(context);
   const { programs = [], services = [] } = data;
   return (
-    <NtosWindow title={'NtOS Main Menu'} width={400} height={500}>
+    <NtosWindow title={'LM-LinkOS Main Menu'} width={400} height={500}>
       <NtosWindow.Content scrollable>
-        <Section title="NtOS Program Directory">
+        <Section title="LM-LinkOS Program Directory">
           <Table>
             {programs.map((program) => {
               return (

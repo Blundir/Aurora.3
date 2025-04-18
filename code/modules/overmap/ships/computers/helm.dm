@@ -314,8 +314,6 @@
 /obj/machinery/computer/ship/navigation
 	name = "navigation console"
 	icon_screen = "nav"
-	icon_keyboard = "cyan_key"
-	icon_keyboard_emis = "cyan_key_mask"
 	light_color = LIGHT_COLOR_CYAN
 	circuit = /obj/item/circuitboard/ship/navigation
 

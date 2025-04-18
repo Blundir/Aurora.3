@@ -7,7 +7,7 @@
 	filedesc = "Hardware Configuration Tool"
 	extended_desc = "This program allows configuration of the computer's hardware."
 	program_icon_state = "generic"
-	program_key_icon_state = "green_key"
+	//program_key_icon_state = "green_key"
 	color = LIGHT_COLOR_GREEN
 	unsendable = TRUE
 	undeletable = TRUE

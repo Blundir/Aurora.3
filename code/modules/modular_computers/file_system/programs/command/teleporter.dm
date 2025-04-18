@@ -3,7 +3,7 @@
 	filedesc = "Teleporter Control"
 	extended_desc = "A NanoTrasen command remote teleportation hub controller."
 	program_icon_state = "teleport"
-	program_key_icon_state = "lightblue_key"
+	//program_key_icon_state = "lightblue_key"
 	color = LIGHT_COLOR_BLUE
 	size = 8
 	requires_ntnet = TRUE

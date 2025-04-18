@@ -6,8 +6,6 @@
 	density = TRUE
 	anchored = TRUE
 	icon_screen = "crew"
-	icon_keyboard = "teal_key"
-	icon_keyboard_emis = "teal_key_mask"
 	light_color = LIGHT_COLOR_BLUE
 	circuit = /obj/item/circuitboard/operating
 

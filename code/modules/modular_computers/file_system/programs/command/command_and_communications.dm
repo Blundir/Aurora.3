@@ -2,7 +2,7 @@
 	filename = "comm"
 	filedesc = "Command and Communications Program"
 	program_icon_state = "comm"
-	program_key_icon_state = "lightblue_key"
+	//program_key_icon_state = "lightblue_key"
 	extended_desc = "Used to command and control the station. Can relay long-range communications."
 	required_access_run = ACCESS_HEADS
 	required_access_download = ACCESS_HEADS

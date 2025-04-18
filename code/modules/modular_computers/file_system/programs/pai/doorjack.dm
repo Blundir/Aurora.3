@@ -2,7 +2,7 @@
 	filename = "doorjack"
 	filedesc = "Door Jack"
 	program_icon_state = "generic"
-	program_key_icon_state = "green_key"
+	//program_key_icon_state = "green_key"
 	extended_desc = "This program is used to access standard-issue pAI door jack systems."
 	size = 12
 

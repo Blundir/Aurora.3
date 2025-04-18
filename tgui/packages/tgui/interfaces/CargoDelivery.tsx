@@ -158,16 +158,16 @@ export const Overview = (props, context) => {
             : 'Unauthorised'}
         </LabeledList.Item>
         <LabeledList.Item label="Price">
-          {data.order_details.price} 电
+          {data.order_details.price} $
         </LabeledList.Item>
         <LabeledList.Item label="Operations Expense">
-          {data.order_details.price_cargo} 电
+          {data.order_details.price_cargo} $
         </LabeledList.Item>
         <LabeledList.Item label="Personal Expense">
-          {data.order_details.price_customer} 电
+          {data.order_details.price_customer} $
         </LabeledList.Item>
         <LabeledList.Item label="Personal Expense">
-          {data.order_details.price_customer} 电
+          {data.order_details.price_customer} $
         </LabeledList.Item>
         <LabeledList.Item label="Ordered At">
           {data.order_details.time_submitted}
@@ -205,7 +205,7 @@ export const Overview = (props, context) => {
             <Table.Row key={item.name}>
               <Table.Cell>{item.name}</Table.Cell>
               <Table.Cell>{item.supplier_name}</Table.Cell>
-              <Table.Cell>{item.price} 电</Table.Cell>
+              <Table.Cell>{item.price} $</Table.Cell>
             </Table.Row>
           ))}
         </Table>
@@ -242,7 +242,7 @@ export const Payment = (props, context) => {
       }>
       <LabeledList>
         <LabeledList.Item label="Price">
-          {data.order_details.price} 电
+          {data.order_details.price} $
         </LabeledList.Item>
         <LabeledList.Item label="Customer">
           {data.order_details.ordered_by}

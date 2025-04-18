@@ -123,8 +123,6 @@ GLOBAL_LIST_INIT_TYPED(allCasters, /obj/machinery/newscaster, list())
 	GLOB.allCasters += src
 	paper_remaining = 15            // Will probably change this to something better
 	unit_no = GLOB.allCasters.len + 1
-	if(dir & NORTH)
-		alpha = 127
 	update_icon() //for any custom ones on the map...
 
 	if(!mapload)
@@ -169,7 +167,7 @@ GLOBAL_LIST_INIT_TYPED(allCasters, /obj/machinery/newscaster, list())
 	screen_hologram.blend_mode = BLEND_MULTIPLY
 	screen.blend_mode = BLEND_ADD
 	AddOverlays(list(screen_hologram, screen, screen_emis))
-	set_light(1.4, 1.3, COLOR_CYAN)
+	set_light(1.4, 1.3, COLOR_GREEN)
 
 	if(!alert || !SSnews.wanted_issue)
 		var/mutable_appearance/screen_title = overlay_image(icon, "newscaster-title")
@@ -237,9 +235,6 @@ GLOBAL_LIST_INIT_TYPED(allCasters, /obj/machinery/newscaster, list())
 		AddOverlays(screen_hologram_title)
 		AddOverlays(screen_title)
 		AddOverlays(screen_emis_title)
-
-	if(hitstaken == 0)
-		AddOverlays("newscaster-scanline")
 
 	if(hitstaken > 0) //Cosmetic damage overlay
 		AddOverlays("crack[hitstaken]")

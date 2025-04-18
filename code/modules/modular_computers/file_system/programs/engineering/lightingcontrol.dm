@@ -2,7 +2,7 @@
 	filename = "lightctrl"
 	filedesc = "Lighting Controller"
 	program_icon_state = "power_monitor"
-	program_key_icon_state = "yellow_key"
+	//program_key_icon_state = "yellow_key"
 	extended_desc = "This program allows mass-control of the station's lighting systems. This program cannot be run on tablet computers."
 	required_access_run = ACCESS_HEADS
 	required_access_download = ACCESS_CE

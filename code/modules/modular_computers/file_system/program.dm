@@ -40,7 +40,7 @@ ABSTRACT_TYPE(/datum/computer_file/program)
 	var/program_icon_state
 
 	/// Program-specific keyboard icon state (really only applies to consoles but can be used for other purposes like having mix-n-match screens)
-	var/program_key_icon_state
+	//var/program_key_icon_state
 
 	/// Set to TRUE for program to require nonstop NTNet connection to run. If NTNet connection is lost program crashes.
 	var/requires_ntnet = FALSE

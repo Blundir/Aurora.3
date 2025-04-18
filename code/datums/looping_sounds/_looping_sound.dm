@@ -101,11 +101,11 @@
  */
 /datum/looping_sound/proc/stop(null_parent = FALSE)
 	stop_current()
+	on_stop()
 	if(null_parent)
 		set_parent(null)
 	if(!timer_id)
 		return
-	on_stop()
 	deltimer(timer_id, SSsound_loops)
 	timer_id = null
 	loop_started = FALSE

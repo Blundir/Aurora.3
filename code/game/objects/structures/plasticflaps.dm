@@ -9,7 +9,7 @@
 	layer = UNDERDOOR
 	explosion_resistance = 5
 	build_amt = 4
-	color = COLOR_GRAY20 // ideally this would get_step() the material color from nearby walls but this works for now.
+	// color = COLOR_GRAY20 // ideally this would get_step() the material color from nearby walls but this works for now.
 	atmos_canpass = CANPASS_PROC
 
 	var/manipulating = FALSE //Prevents queueing up a ton of deconstructs
@@ -30,8 +30,6 @@
 	. = ..()
 	icon_state = "plasticflaps"
 	var/image/plasticflaps_overlay = overlay_image(icon, "plasticflaps_overlay", null, RESET_COLOR)
-	if(dir == WEST || dir == EAST)
-		plasticflaps_overlay.pixel_y = -13
 	AddOverlays(plasticflaps_overlay)
 
 /obj/structure/plasticflaps/Destroy()

@@ -178,8 +178,8 @@
 
 				receipt += "<b>[name]</b>: [item_name] x[item_amount] at [item_price]cr each<br>"
 				ticket += "<b>[name]</b>: [item_name] x[item_amount] at [item_price]cr each<br>"
-			receipt += "<hr><b>Total:</b> [sum]电"
-			ticket += "<hr><b>Total:</b> [sum]电"
+			receipt += "<hr><b>Total:</b> [sum]$"
+			ticket += "<hr><b>Total:</b> [sum]$"
 			sum = sum
 			. = TRUE
 
