@@ -48,7 +48,7 @@ export const AccountDatabase = (props, context) => {
             </LabeledList.Item>
             {data.access_level ? (
               <LabeledList.Item label="Assigned Conglomerate Funds">
-                {data.station_account_money}电
+                {data.station_account_money}$
               </LabeledList.Item>
             ) : (
               ''
@@ -130,7 +130,7 @@ export const AccountWindow = (props, context) => {
                 />
                 <NumberInput
                   value={new_funds}
-                  unit="电"
+                  unit="$"
                   minValue={0}
                   maxValue={data.station_account_money}
                   step={50}
@@ -223,7 +223,7 @@ export const SpecificAccountData = (props, context) => {
                 {account.owner}
               </LabeledList.Item>
               <LabeledList.Item label="Balance">
-                {account.money}电
+                {account.money}$
               </LabeledList.Item>
               <LabeledList.Item label="Status">
                 <Box as="span" color={account.suspended ? 'red' : 'good'}>
@@ -243,7 +243,7 @@ export const SpecificAccountData = (props, context) => {
                     <>
                       <NumberInput
                         value={funds_to_add}
-                        unit="电"
+                        unit="$"
                         minValue={0}
                         maxValue={10000}
                         onDrag={(e, value) => setFundsToAdd(value)}
@@ -273,7 +273,7 @@ export const SpecificAccountData = (props, context) => {
                     <>
                       <NumberInput
                         value={funds_to_remove}
-                        unit="电"
+                        unit="$"
                         minValue={0}
                         maxValue={10000}
                         onDrag={(e, value) => setFundsToRemove(value)}
@@ -312,7 +312,7 @@ export const SpecificAccountData = (props, context) => {
                     </Table.Cell>
                     <Table.Cell>{transaction.target_name}</Table.Cell>
                     <Table.Cell>{transaction.purpose}</Table.Cell>
-                    <Table.Cell>{transaction.amount}电</Table.Cell>
+                    <Table.Cell>{transaction.amount}$</Table.Cell>
                     <Table.Cell>{transaction.source_terminal}</Table.Cell>
                   </Table.Row>
                 ))}
