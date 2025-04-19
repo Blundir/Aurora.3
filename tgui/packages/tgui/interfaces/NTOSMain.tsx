@@ -58,7 +58,7 @@ export const NTOSMain = (props, context) => {
             })}
           </Table>
         </Section>
-        <Section collapsing title="NtOS Services">
+        <Section collapsing title="LM-LinkOs Services">
           <Table>
             {services.map((service) => {
               return (

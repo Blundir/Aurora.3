@@ -2,7 +2,7 @@
 
 /datum/computer_file/program/clientmanager
 	filename = "clientmanager"
-	filedesc = "NTOS Client Manager"
+	filedesc = "LM-LinkOS Client Manager"
 	extended_desc = "This program allows configuration of the computer's software."
 	program_icon_state = "generic"
 	//program_key_icon_state = "green_key"

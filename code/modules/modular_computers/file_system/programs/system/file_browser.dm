@@ -1,7 +1,7 @@
 #define MAX_TEXTFILE_LENGTH 128000		// 512GQ file
 /datum/computer_file/program/filemanager
 	filename = "filemanager"
-	filedesc = "NTOS File Manager"
+	filedesc = "LM-LinkOS File Manager"
 	extended_desc = "This program allows management of files."
 	program_icon_state = "generic"
 	//program_key_icon_state = "green_key"
