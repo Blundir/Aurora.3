@@ -32,7 +32,7 @@ PROCESSING_SUBSYSTEM_DEF(tgui)
 	var/polyfill = file2text('tgui/public/tgui-polyfill.min.js')
 	polyfill = "<script>\n[polyfill]\n</script>"
 	basehtml = replacetextEx(basehtml, "<!-- tgui:inline-polyfill -->", polyfill)
-	basehtml = replacetextEx(basehtml, "<!-- tgui:nt-copyright -->", "NanoTrasen © 2457-[text2num(time2text(world.realtime, "YYYY")) + 442]")
+	basehtml = replacetextEx(basehtml, "<!-- tgui:nt-copyright -->", "NanoTrasen © 2457-[text2num(time2text(world.realtime, "YYYY")) + 140]")
 
 /datum/controller/subsystem/processing/tgui/OnConfigLoad()
 	var/storage_iframe = GLOB.config.storage_cdn_iframe

@@ -35,7 +35,7 @@ GLOBAL_PROTECT(href_logfile)
 GLOBAL_VAR_INIT(game_version, "Aurorastation")
 GLOBAL_PROTECT(game_version)
 
-GLOBAL_VAR_INIT(game_year, (text2num(time2text(world.realtime, "YYYY")) + 442))
+GLOBAL_VAR_INIT(game_year, (text2num(time2text(world.realtime, "YYYY")) + 140))
 
 GLOBAL_VAR_INIT(round_progressing, 1)
 GLOBAL_VAR_INIT(master_mode, "extended")

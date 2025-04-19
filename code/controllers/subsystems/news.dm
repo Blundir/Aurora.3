@@ -173,7 +173,7 @@ SUBSYSTEM_DEF(news)
 	timestamp = replacetextEx(timestamp, "Z", "")
 
 	var/year = text2num(copytext(timestamp, 1, 5))
-	var/new_year = year + 442
+	var/new_year = year + 140
 	timestamp = replacetext(timestamp, "[year]", "[new_year]")
 
 	return timestamp

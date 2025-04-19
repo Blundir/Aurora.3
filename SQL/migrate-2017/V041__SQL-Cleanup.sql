@@ -24,7 +24,7 @@ UPDATE
 SET
 	publish_at = created_at,
 	publish_until = DATE_ADD(created_at, INTERVAL 7 DAY),
-	ic_timestamp = DATE_ADD(created_at, INTERVAL 442 YEAR)
+	ic_timestamp = DATE_ADD(created_at, INTERVAL 140 YEAR)
 WHERE
 	publish_at = 0 OR
 	publish_until = 0 OR
