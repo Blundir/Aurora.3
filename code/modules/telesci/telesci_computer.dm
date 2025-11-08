@@ -1,10 +1,10 @@
 /obj/machinery/computer/telescience
 	name = "\improper Telepad Control Console"
 	desc = "Used to create bluespace portals using the telescience telepad."
+	icon_state = "computer_mini"
+	icon_broken = "computer_mini-broken"
 	icon_screen = "teleport"
-	icon_keyboard = "lightblue_key"
-	icon_keyboard_emis = "lightblue_key_mask"
-	light_color = LIGHT_COLOR_BLUE
+	light_color = LIGHT_COLOR_RED
 	circuit = /obj/item/circuitboard/telesci_console
 	var/sending = 1
 

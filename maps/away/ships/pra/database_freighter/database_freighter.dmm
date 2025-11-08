@@ -4633,7 +4633,7 @@
 	pixel_y = 15
 	},
 /obj/structure/curtain/open/shower,
-/obj/item/soap/red_soap,
+/obj/item/soap,
 /turf/simulated/floor/tiled/freezer{
 	temperature = 278.15
 	},

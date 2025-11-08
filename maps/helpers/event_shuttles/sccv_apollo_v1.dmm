@@ -3347,7 +3347,7 @@
 /obj/structure/table/reinforced/steel,
 /obj/machinery/photocopier/faxmachine{
 	pixel_y = 6;
-	department = "SCCV Apollo"
+	department = "CSCSS Apollo"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/scc_event_shuttle)

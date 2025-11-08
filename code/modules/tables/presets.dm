@@ -18,6 +18,7 @@
 
 /obj/structure/table/reinforced
 	icon_state = "reinf_solid_preview"
+	colorable = FALSE
 	table_mat = DEFAULT_TABLE_MATERIAL
 	table_reinf = DEFAULT_TABLE_REINF_MATERIAL
 
@@ -61,6 +62,12 @@
 
 /obj/structure/table/wood/yew
 	table_mat = MATERIAL_YEW
+
+/obj/structure/table/wood/fancy
+	icon = 'icons/obj/structure/tables/table.dmi'
+	icon_state = "fancy_wood_preview"
+	table_mat = MATERIAL_WOOD_FANCY
+	colorable = FALSE
 
 /obj/structure/table/wood/gamblingtable
 	icon_state = "gamble_preview"

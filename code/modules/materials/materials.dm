@@ -760,7 +760,7 @@
 	display_name = "elevator panelling"
 	stack_type = null
 	icon_colour = "#666666"
-	wall_icon = 'icons/turf/smooth/composite_solid_color.dmi'
+	wall_icon = 'icons/turf/smooth/elevator_wall.dmi'
 	integrity = 1200
 	melting_point = 6000
 	explosion_resistance = 200
@@ -882,6 +882,14 @@
 	stack_type = null
 	shard_type = SHARD_NONE
 	value = 0
+
+/material/wood/fancy
+	name = MATERIAL_WOOD_FANCY
+	icon_base = "fancy_wood"
+	display_name = "fancy wood"
+	stack_type = null
+	shard_type = SHARD_NONE
+	value = 10
 
 /material/cardboard
 	name = MATERIAL_CARDBOARD

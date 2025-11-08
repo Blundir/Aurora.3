@@ -1,9 +1,9 @@
 /obj/machinery/computer/ship/targeting
 	name = "targeting systems console"
-	desc = "A targeting systems console using Zavodskoi software."
+	desc = "A targeting systems console using Alphatech software."
 	icon_screen = "teleport"
-	icon_keyboard = "teal_key"
-	icon_keyboard_emis = "teal_key_mask"
+	icon_state = "computer_mini"
+	icon_broken = "computer_mini-broken"
 	light_color = LIGHT_COLOR_CYAN
 	circuit = /obj/item/circuitboard/ship/targeting
 	var/obj/machinery/ship_weapon/cannon
@@ -15,7 +15,7 @@
 
 /obj/machinery/computer/ship/targeting/terminal
 	name = "targeting systems terminal"
-	desc = "A targeting systems terminal using Zavodskoi software."
+	desc = "A targeting systems terminal using Alphatech software."
 	icon = 'icons/obj/machinery/modular_terminal.dmi'
 	icon_screen = "hostile"
 	icon_keyboard = "red_key"

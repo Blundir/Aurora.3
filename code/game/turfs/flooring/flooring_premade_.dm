@@ -96,6 +96,15 @@
 /turf/simulated/floor/tiled/steel/airless
 	initial_gas = null
 
+/turf/simulated/floor/tiled/corsat
+	icon = 'icons/turf/flooring/corsat.dmi'
+	icon_state = "squares"
+	initial_flooring = /singleton/flooring/corsat
+
+/turf/simulated/floor/tiled/corsat/full
+	icon_state = "plate"
+	initial_flooring = /singleton/flooring/corsat/full
+
 /turf/simulated/floor/tiled/rust/update_icon()
 	. = ..()
 	var/image/rust = image('icons/turf/decals/damage.dmi', "rust")

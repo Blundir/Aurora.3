@@ -308,6 +308,7 @@
 	desc = "For prime comfort during psychiatric evaluations."
 	icon_state = "psychbed"
 	base_icon = "psychbed"
+	material_alteration = MATERIAL_ALTERATION_NAME || MATERIAL_ALTERATION_DESC
 
 /obj/structure/bed/bunk
 	icon_state = "bunkbed"

@@ -75,22 +75,27 @@
 	tile_decal_state = "wood"
 	broken_overlay = "wood"
 	tile_outline_alpha = 75
-	color = WOOD_COLOR_GENERIC
 
 /turf/simulated/floor/wood/airless
 	initial_gas = null
 
 /turf/simulated/floor/wood/birch
 	initial_flooring = /singleton/flooring/wood/birch
-	color = WOOD_COLOR_GENERIC
+	tile_outline = "wood_alt"
+	tile_decal_state = "wood_alt"
+	broken_overlay = "wood_alt_broken"
 
 /turf/simulated/floor/wood/mahogany
 	initial_flooring = /singleton/flooring/wood/mahogany
-	color = WOOD_COLOR_RICH
+	tile_outline = "wood_alt"
+	tile_decal_state = "wood_alt"
+	broken_overlay = "wood_alt_broken"
 
 /turf/simulated/floor/wood/maple
 	initial_flooring = /singleton/flooring/wood/maple
-	color = WOOD_COLOR_PALE
+	tile_outline = "wood_alt"
+	tile_decal_state = "wood_alt"
+	broken_overlay = "wood_alt_broken"
 
 /turf/simulated/floor/wood/bamboo
 	initial_flooring = /singleton/flooring/wood/bamboo
@@ -102,11 +107,15 @@
 
 /turf/simulated/floor/wood/walnut
 	initial_flooring = /singleton/flooring/wood/walnut
-	color = WOOD_COLOR_CHOCOLATE
+	tile_outline = "wood_alt"
+	tile_decal_state = "wood_alt"
+	broken_overlay = "wood_alt_broken"
 
 /turf/simulated/floor/wood/yew
 	initial_flooring = /singleton/flooring/wood/yew
-	color = WOOD_COLOR_YELLOW
+	tile_outline = "wood_alt"
+	tile_decal_state = "wood_alt"
+	broken_overlay = "wood_alt_broken"
 
 // ------------------------------- marble
 

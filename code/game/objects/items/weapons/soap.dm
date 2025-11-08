@@ -128,45 +128,17 @@
 	item_state = "soapsyndie"
 	capacity = 20
 
-/obj/item/soap/space_soap
-	desc = "Smells like cedarwood and almonds."
-	icon_state = "space_soap"
-
-/obj/item/soap/water_soap
-	desc = "Smells like rain water and vanilla."
-	icon_state = "water_soap"
-
 /obj/item/soap/fire_soap
 	desc = "Smells like charcoal and chestnuts."
 	icon_state = "fire_soap"
-
-/obj/item/soap/rainbow_soap
-	desc = "Smells like carnations and honey."
-	icon_state = "rainbow_soap"
 
 /obj/item/soap/diamond_soap
 	desc = "Smells like saffron and vanilla."
 	icon_state = "diamond_soap"
 
-/obj/item/soap/uranium_soap
-	desc = "Smells like lime."
-	icon_state = "uranium_soap"
-
-/obj/item/soap/silver_soap
-	desc = "Smells like birch and amaranth."
-	icon_state = "silver_soap"
-
 /obj/item/soap/brown_soap
 	desc = "Smells like cinnamon and cognac."
 	icon_state = "brown_soap"
-
-/obj/item/soap/white_soap
-	desc = "Smells like nutmeg and oats."
-	icon_state = "white_soap"
-
-/obj/item/soap/grey_soap
-	desc = "Smells like bergamot and lilies."
-	icon_state = "grey_soap"
 
 /obj/item/soap/pink_soap
 	desc = "Smells like cherry blossoms."
@@ -180,25 +152,9 @@
 	desc = "Smells like cardamom."
 	icon_state = "blue_soap"
 
-/obj/item/soap/cyan_soap
-	desc = "Smells like bluebells and peaches."
-	icon_state = "cyan_soap"
-
 /obj/item/soap/green_soap
 	desc = "Smells like rosemary and thyme."
 	icon_state = "green_soap"
-
-/obj/item/soap/yellow_soap
-	desc = "Smells like citron and ginger."
-	icon_state = "yellow_soap"
-
-/obj/item/soap/orange_soap
-	desc = "Smells like oranges and dark chocolate."
-	icon_state = "orange_soap"
-
-/obj/item/soap/red_soap
-	desc = "Smells like roses and oats."
-	icon_state = "red_soap"
 
 /obj/item/soap/golden_soap
 	desc = "Smells like agave nectar."
@@ -214,24 +170,12 @@
 		return pick(/obj/item/soap, \
 					/obj/item/soap/nanotrasen, \
 					/obj/item/soap/deluxe,\
-					/obj/item/soap/space_soap,\
-					/obj/item/soap/space_soap,\
-					/obj/item/soap/water_soap,\
 					/obj/item/soap/fire_soap,\
-					/obj/item/soap/rainbow_soap,\
 					/obj/item/soap/diamond_soap,\
-					/obj/item/soap/uranium_soap,\
-					/obj/item/soap/silver_soap,\
 					/obj/item/soap/brown_soap,\
-					/obj/item/soap/white_soap,\
-					/obj/item/soap/grey_soap,\
 					/obj/item/soap/pink_soap,\
 					/obj/item/soap/purple_soap,\
 					/obj/item/soap/blue_soap,\
-					/obj/item/soap/cyan_soap,\
 					/obj/item/soap/green_soap,\
-					/obj/item/soap/yellow_soap,\
-					/obj/item/soap/orange_soap,\
-					/obj/item/soap/red_soap,\
 					/obj/item/soap/golden_soap,\
 )

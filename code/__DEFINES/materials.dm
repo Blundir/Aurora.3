@@ -63,6 +63,7 @@
 #define MATERIAL_WALNUT                  "walnut wood"
 #define MATERIAL_YEW                     "yew wood"
 #define MATERIAL_WOOD_HOLO               "holowood"
+#define MATERIAL_WOOD_FANCY				 "fancy wood"
 #define MATERIAL_WOOD_LOG                "log"
 #define MATERIAL_WOOD_BRANCH             "branch"
 

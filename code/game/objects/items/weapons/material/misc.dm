@@ -153,6 +153,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	attack_verb = list("slashed", "sliced", "cut", "clawed")
 	worth_multiplier = 6
+	applies_material_colour = FALSE
 
 /obj/item/material/scythe
 	name = "scythe"

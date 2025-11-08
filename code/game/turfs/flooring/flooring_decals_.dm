@@ -925,6 +925,81 @@
 /obj/effect/floor_decal/sign/p
 	icon_state = "white_p"
 
+/obj/effect/floor_decal/sign/medical
+	icon = 'icons/turf/decals/medical_decals.dmi'
+
+/obj/effect/floor_decal/sign/medical/cryomid
+	icon_state = "cryomid"
+
+/obj/effect/floor_decal/sign/medical/cryotop
+	icon_state = "cryotop"
+
+/obj/effect/floor_decal/sign/medical/cryocell1decal
+	icon_state = "cryocell1decal"
+
+/obj/effect/floor_decal/sign/medical/cryocell2deval
+	icon_state = "cryocell2deval"
+
+/obj/effect/floor_decal/sign/medical/cryocell3decal
+	icon_state = "cryocell3decal"
+
+/obj/effect/floor_decal/sign/medical/cryocell4decal
+	icon_state = "cryocell4decal"
+
+/obj/effect/floor_decal/sign/medical/docdecal1
+	icon_state = "docdecal1"
+
+/obj/effect/floor_decal/sign/medical/docdecal4
+	icon_state = "docdecal4"
+
+/obj/effect/floor_decal/sign/medical/docdecal2
+	icon_state = "docdecal2"
+
+/obj/effect/floor_decal/sign/medical/docdecal3
+	icon_state = "docdecal3"
+
+/obj/effect/floor_decal/sign/medical/docstriping
+	icon_state = "docstriping"
+
+/obj/effect/floor_decal/sign/medical/docstripingdir
+	icon_state = "docstripingdir"
+
+/obj/effect/floor_decal/sign/medical/triagedecal
+	icon_state = "triagedecal"
+
+/obj/effect/floor_decal/sign/medical/triagedecalbottom
+	icon_state = "triagedecalbottom"
+
+/obj/effect/floor_decal/sign/medical/triagedecaldir
+	icon_state = "triagedecaldir"
+
+/obj/effect/floor_decal/sign/medical/triagedecaltop
+	icon_state = "triagedecaltop"
+
+/obj/effect/floor_decal/sign/medical/triagedecalleftdown
+	icon_state = "triagedecalleftdown"
+
+/obj/effect/floor_decal/sign/medical/triagedecaltopleft
+	icon_state = "triagedecaltopleft"
+
+/obj/effect/floor_decal/sign/medical/triagedecalbottomright
+	icon_state = "triagedecalbottomright"
+
+/obj/effect/floor_decal/sign/medical/triagedecalrightup
+	icon_state = "triagedecalrightup"
+
+/obj/effect/floor_decal/sign/medical/triagedecalleftup
+	icon_state = "triagedecalleftup"
+
+/obj/effect/floor_decal/sign/medical/triagedecalrightdown
+	icon_state = "triagedecalrightdown"
+
+/obj/effect/floor_decal/sign/medical/triagedecaltopright
+	icon_state = "triagedecaltopright"
+
+/obj/effect/floor_decal/sign/medical/triagedecalbottomleft
+	icon_state = "triagedecalbottomleft"
+
 // New signs (New-map)
 
 /obj/effect/floor_decal/sign/gtr

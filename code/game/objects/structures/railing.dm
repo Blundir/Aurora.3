@@ -21,12 +21,12 @@
 	can_astar_pass = CANASTARPASS_ALWAYS_PROC
 
 /obj/structure/railing/mapped
-	color = COLOR_GUNMETAL
+	color = null
 	anchored = TRUE
 
 /obj/structure/railing/mapped/Initialize()
 	. = ..()
-	color = COLOR_GUNMETAL // They're not painted!
+	color = null
 
 /obj/structure/railing/mapped/no_density
 	density = FALSE

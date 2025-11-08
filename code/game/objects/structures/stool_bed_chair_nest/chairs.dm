@@ -64,6 +64,7 @@
 
 /obj/structure/bed/stool/chair/padded
 	icon_state = "chair_padding"
+	material_alteration = MATERIAL_ALTERATION_NAME || MATERIAL_ALTERATION_DESC || MATERIAL_ALTERATION_COLOR
 
 /obj/structure/bed/stool/chair/padded/brown/New(var/newloc)
 	..(newloc, MATERIAL_STEEL, MATERIAL_LEATHER)
@@ -186,8 +187,9 @@
 /obj/structure/bed/stool/chair/wood
 	name = "classic chair"
 	desc = "Old is never too old to not be in fashion."
-	icon_state = "wooden_chair"
-	base_icon = "wooden_chair"
+	icon_state = "wooden_chair_wings"
+	base_icon = "wooden_chair_wings"
+	material_alteration = MATERIAL_ALTERATION_NAME || MATERIAL_ALTERATION_DESC
 	build_amt = 3
 	held_item = /obj/item/material/stool/chair/wood
 	can_pad = FALSE
@@ -197,8 +199,8 @@
 
 /obj/structure/bed/stool/chair/wood/wings
 	name = "winged chair"
-	icon_state = "wooden_chair_wings"
-	base_icon = "wooden_chair_wings"
+	icon_state = "wooden_chair"
+	base_icon = "wooden_chair"
 	held_item = /obj/item/material/stool/chair/wood/wings
 
 /obj/structure/bed/stool/chair/unmovable

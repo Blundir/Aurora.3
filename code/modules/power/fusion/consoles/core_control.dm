@@ -5,11 +5,8 @@
 /obj/machinery/computer/fusion/core_control/terminal
 	name = "\improper INDRA fusion core control"
 	icon = 'icons/obj/machinery/modular_terminal.dmi'
-	icon_screen = "solar_screen"
-	icon_keyboard = "id_key"
-	icon_keyboard_emis = "id_key_mask"
-	is_connected = TRUE
-	has_off_keyboards = TRUE
+	icon_state = "console_big_3"
+	icon_screen = "solar_screen_b"
 	can_pass_under = FALSE
 	light_power_on = 1
 

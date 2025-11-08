@@ -43,7 +43,7 @@
 	new /obj/item/clothing/shoes/galoshes(src)
 	new /obj/item/device/flashlight(src)
 	new /obj/item/reagent_containers/spray/cleaner(src)
-	new /obj/item/soap/red_soap(src)
+	new /obj/item/soap(src)
 	new /obj/item/reagent_containers/glass/rag(src)
 	new /obj/item/device/lightreplacer(src)
 	new /obj/item/storage/bag/trash(src)

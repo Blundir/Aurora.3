@@ -13,7 +13,7 @@
 	size = 9
 	color = LIGHT_COLOR_ORANGE
 	tgui_id = "PowerMonitor"
-	tgui_theme = "hephaestus"
+	tgui_theme = "ntos_terminal" //TODO: change to crtyellow
 	var/has_alert = FALSE
 	var/list/grid_sensors
 	var/active_sensor	//name_tag of the currently selected sensor

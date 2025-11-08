@@ -4,8 +4,6 @@
 /obj/machinery/computer/ship/helm
 	name = "helm control console"
 	icon_screen = "helm"
-	icon_keyboard = "cyan_key"
-	icon_keyboard_emis = "cyan_key_mask"
 	light_color = LIGHT_COLOR_CYAN
 	var/autopilot = 0
 	var/list/known_sectors = list()

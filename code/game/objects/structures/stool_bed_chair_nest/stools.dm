@@ -53,10 +53,13 @@
 	..(newloc, MATERIAL_STEEL, MATERIAL_LEATHER)
 
 /obj/structure/bed/stool/padded/black/New(var/newloc)
-	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_DARK_GRAY)
+	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH)
 
 /obj/structure/bed/stool/padded/beige/New(var/newloc)
 	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_BEIGE)
+
+/obj/structure/bed/stool/padded/red
+	material_alteration = MATERIAL_ALTERATION_NAME || MATERIAL_ALTERATION_DESC
 
 /obj/structure/bed/stool/padded/red/New(var/newloc)
 	..(newloc, MATERIAL_STEEL, MATERIAL_CARPET)
@@ -112,8 +115,10 @@
 /obj/structure/bed/stool/bar/padded/beige/New(var/newloc)
 	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_BEIGE)
 
-/obj/structure/bed/stool/bar/padded/red/New(var/newloc)
-	..(newloc, MATERIAL_STEEL, MATERIAL_CARPET)
+/obj/structure/bed/stool/bar/padded/red
+	icon_state = "bar_stool_red"
+	base_icon = "bar_stool_red"
+	material_alteration = MATERIAL_ALTERATION_NAME || MATERIAL_ALTERATION_DESC
 
 /obj/structure/bed/stool/bar/padded/orange/New(var/newloc)
 	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_ORANGE)

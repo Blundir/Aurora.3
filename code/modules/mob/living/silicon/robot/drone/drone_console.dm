@@ -1,9 +1,7 @@
 /obj/machinery/computer/drone_control
 	name = "Maintenance Drone Control"
 	desc = "Used to monitor the station's drone population and the assembler that services them."
-	icon_screen = "power_monitor"
-	icon_keyboard = "yellow_key"
-	icon_keyboard_emis = "yellow_key_mask"
+	icon_screen = "power"
 	light_color = LIGHT_COLOR_YELLOW
 	req_access = list(ACCESS_ENGINE_EQUIP)
 	circuit = /obj/item/circuitboard/drone_control

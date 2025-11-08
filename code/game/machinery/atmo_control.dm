@@ -214,11 +214,8 @@
 
 /obj/machinery/computer/general_air_control/large_tank_control/terminal
 	icon = 'icons/obj/machinery/modular_terminal.dmi'
-	icon_screen = "tank"
-	icon_keyboard = "atmos_key"
-	icon_keyboard_emis = "atmos_key_mask"
-	is_connected = TRUE
-	has_off_keyboards = TRUE
+	icon_state = "console_big_2"
+	icon_screen = "tank_b"
 	can_pass_under = FALSE
 	light_power_on = 1
 
@@ -227,16 +224,6 @@
 	icon_state = "telescreen"
 	icon_screen = "engi"
 	density = FALSE
-
-/obj/machinery/computer/general_air_control/large_tank_control/terminal
-	icon = 'icons/obj/machinery/modular_terminal.dmi'
-	icon_screen = "tank"
-	icon_keyboard = "atmos_key"
-	icon_keyboard_emis = "atmos_key_mask"
-	is_connected = TRUE
-	has_off_keyboards = TRUE
-	can_pass_under = FALSE
-	light_power_on = 1
 
 /obj/machinery/computer/general_air_control/large_tank_control/ui_data(mob/user)
 	. = ..()
@@ -318,9 +305,8 @@
 
 /obj/machinery/computer/general_air_control/supermatter_core
 	icon = 'icons/obj/machinery/modular_terminal.dmi'
-	icon_screen = "tank"
-	icon_keyboard = "atmos_key"
-	icon_keyboard_emis = "atmos_key_mask"
+	icon_state = "console_big_2"
+	icon_screen = "tank_b"
 	ui_type = "AtmosControlSupermatter"
 	is_connected = TRUE
 	has_off_keyboards = TRUE

@@ -6,8 +6,8 @@
 
 /obj/structure/closet/wardrobe/red
 	name = "security wardrobe"
-	icon_state = "white_blue"
-	icon_door = "white_blue"
+	icon_state = "white_red"
+	icon_door = "white_red"
 
 /obj/structure/closet/wardrobe/red/fill()
 	..()

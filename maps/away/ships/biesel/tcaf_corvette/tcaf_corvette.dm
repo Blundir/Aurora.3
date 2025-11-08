@@ -85,7 +85,7 @@
 	colors = list("#5d68c8", "#70a2e7")
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
-	vessel_mass = 2500 // Same as the SCCV Canary. Lower than usual to compensate for only having two thrusters.
+	vessel_mass = 2500 // Same as the CSCSS Canary. Lower than usual to compensate for only having two thrusters.
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_TINY
 

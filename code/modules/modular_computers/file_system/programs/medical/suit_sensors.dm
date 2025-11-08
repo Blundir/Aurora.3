@@ -12,7 +12,7 @@
 	usage_flags = PROGRAM_CONSOLE | PROGRAM_LAPTOP | PROGRAM_STATIONBOUND
 	color = LIGHT_COLOR_CYAN
 	tgui_id = "SuitSensors"
-	tgui_theme = "nanotrasen"
+	tgui_theme = "ntos_terminal" //TODO: change to crtblue
 
 /datum/computer_file/program/suit_sensors/ui_data(mob/user)
 	var/list/data = list()

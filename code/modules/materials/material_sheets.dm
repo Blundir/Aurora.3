@@ -101,9 +101,8 @@
 
 /obj/item/stack/material/iron
 	name = "iron"
-	icon_state = "sheet-silver"
+	icon_state = "sheet-iron"
 	default_type = MATERIAL_IRON
-	apply_colour = TRUE
 	icon_has_variants = TRUE
 
 /obj/item/stack/material/iron/full/Initialize()

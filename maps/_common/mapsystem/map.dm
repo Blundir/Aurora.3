@@ -135,7 +135,7 @@
 	/**
 	 * A list of the shuttles on this map, used by the Shuttle Manifest program to populate itself.
 	 * Formatted with the shuttle name as an index, followed by a list containing the color and icon to be used for the shuttle's drop down
-	 * On the manifest. i.e. "SCCV Intrepid" = list("color" = "purple", "icon" = "compass")
+	 * On the manifest. i.e. "CSCSS Intrepid" = list("color" = "purple", "icon" = "compass")
 	 */
 	var/list/shuttle_manifests = list()
 	/**

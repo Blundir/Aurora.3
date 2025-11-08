@@ -175,7 +175,6 @@ GLOBAL_LIST_INIT_TYPED(allConsoles, /obj/machinery/requests_console, list())
 		AddOverlays(screen_hologram)
 		AddOverlays(screen)
 		AddOverlays(screen_emis)
-		AddOverlays(overlay_image(icon, "req_comp-scanline"))
 
 /obj/machinery/requests_console/Initialize(mapload, var/dir, var/building = 0)
 	. = ..()

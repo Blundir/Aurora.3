@@ -192,6 +192,7 @@
 	force_divisor = 0.7 // 10 when wielded with weight 15 (wood)
 	thrown_force_divisor = 1 // as above
 	use_material_name = TRUE
+	applies_material_colour = FALSE
 
 /obj/item/material/kitchen/rollingpin/attack(mob/living/target_mob, mob/living/user, target_zone)
 	if ((user.is_clumsy()) && prob(50))

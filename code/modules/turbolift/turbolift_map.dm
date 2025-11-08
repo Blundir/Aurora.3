@@ -11,8 +11,11 @@
 
 	// Various turf and door types used when generating the turbolift floors.
 	var/wall_type =  /turf/simulated/wall/elevator
-	var/floor_type = /turf/simulated/floor/tiled/dark
-	var/door_type =  /obj/machinery/door/airlock/lift
+	var/floor_type = /turf/simulated/floor/tiled/corsat/full
+
+	// NEW: Separate door types for interior and exterior doors
+	var/interior_door_type = /obj/machinery/door/airlock/lift
+	var/exterior_door_type = /obj/machinery/door/airlock/lift
 
 	var/list/areas_to_use = list()
 
@@ -174,17 +177,38 @@
 					if(checking.type != floor_type)
 						checking.ChangeTurf(floor_type)
 						checking = locate(tx,ty,cz)
-					for(var/atom/movable/thing in checking.contents)
-						if(thing.simulated)
-							qdel(thing)
-				if(checking.type == floor_type) // Don't build over empty space on lower levels.
-					var/obj/machinery/door/airlock/lift/newdoor = new door_type(checking)
+					if(clear_objects)
+						for(var/atom/movable/thing in checking.contents)
+							if(thing.simulated)
+								qdel(thing)
+				if(checking.type == floor_type)
 					if(internal)
+						var/obj/machinery/door/airlock/lift/newdoor = new interior_door_type(checking)
 						lift.doors += newdoor
 						newdoor.lift = cfloor
 					else
-						cfloor.doors += newdoor
-						newdoor.floor = cfloor
+						// --- EXTERIOR DOOR LOGIC ---
+						var/door_width = 1
+						// Try to get door_width from the type, fallback to hardcoded
+						if(ispath(exterior_door_type, /obj/machinery/door/airlock/multi_tile/lift))
+							door_width = 2
+						if(ispath(exterior_door_type, /obj/machinery/door/airlock/multi_tile/lift/three_tile))
+							door_width = 3
+						// If the type defines a door_width var, use it
+						var/obj/machinery/door/airlock/lift/exterior_door = exterior_door_type
+						if(initial(exterior_door.width))
+							door_width = initial(exterior_door.width)
+						// Only spawn at the leftmost/topmost tile of the segment
+						if(dir == NORTH || dir == SOUTH)
+							if((tx - door_x1) % door_width == 0)
+								var/obj/machinery/door/airlock/lift/newdoor = new exterior_door_type(checking)
+								cfloor.doors += newdoor
+								newdoor.floor = cfloor
+						else // EAST/WEST: vertical doors, align to top
+							if((ty - door_y1) % door_width == 0)
+								var/obj/machinery/door/airlock/lift/newdoor = new exterior_door_type(checking)
+								cfloor.doors += newdoor
+								newdoor.floor = cfloor
 
 		// Place exterior control panel.
 		var/turf/placing = locate(ext_panel_x, ext_panel_y, cz)

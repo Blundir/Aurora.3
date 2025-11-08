@@ -10,11 +10,8 @@
 /obj/machinery/computer/fusion/fuel_control/terminal
 	name = "fuel injection control terminal"
 	icon = 'icons/obj/machinery/modular_terminal.dmi'
-	icon_screen = "power_screen"
-	icon_keyboard = "med_key"
-	icon_keyboard_emis = "med_key_mask"
-	is_connected = TRUE
-	has_off_keyboards = TRUE
+	icon_state = "console_big_1"
+	icon_screen = "power_screen_b"
 	can_pass_under = FALSE
 	light_power_on = 1
 

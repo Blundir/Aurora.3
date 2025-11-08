@@ -76,7 +76,7 @@
 	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_TEAL)
 
 /obj/structure/bed/stool/chair/sofa/left/purple/New(var/newloc)
-	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_PURPLE)
+	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_BLEAK_PURPLE)
 
 /obj/structure/bed/stool/chair/sofa/left/violet/New(var/newloc)
 	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_VIOLET)
@@ -116,7 +116,7 @@
 	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_TEAL)
 
 /obj/structure/bed/stool/chair/sofa/right/purple/New(var/newloc)
-	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_PURPLE)
+	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_BLEAK_PURPLE)
 
 /obj/structure/bed/stool/chair/sofa/right/violet/New(var/newloc)
 	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH, COLOR_VIOLET)

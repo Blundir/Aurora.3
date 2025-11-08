@@ -3,8 +3,6 @@
 /obj/machinery/computer/ship/engines
 	name = "engine control console"
 	icon_screen = "enginecontrol"
-	icon_keyboard = "cyan_key"
-	icon_keyboard_emis = "cyan_key_mask"
 	light_color = LIGHT_COLOR_CYAN
 	circuit = /obj/item/circuitboard/ship/engines
 	var/display_state = "status"

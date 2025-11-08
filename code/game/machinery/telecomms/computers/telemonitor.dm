@@ -7,9 +7,9 @@
 /obj/machinery/computer/telecomms/monitor
 	name = "telecommunications monitor"
 	desc = "A monitor that tracks the overall traffic of a telecommunications network, and displays a hierarchy of linked machines."
-	icon_screen = "comm_monitor"
-	icon_keyboard = "green_key"
-	icon_keyboard_emis = "green_key_mask"
+	icon_state = "comm_monitor"
+	icon_screen = "comm_monitor_screen"
+	icon_broken = "comm_monitor_broken"
 	light_color = LIGHT_COLOR_GREEN
 
 	var/screen = 0				// the screen number:

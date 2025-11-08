@@ -10,6 +10,7 @@
 	layer = TABLE_LAYER
 	breakable = TRUE
 	build_amt = 1
+	var/colorable = TRUE
 
 	//Preset shit
 	var/table_mat
@@ -98,7 +99,8 @@
 
 	// reset color/alpha and icon, since they're set for nice map previews
 	icon = 'icons/obj/structure/tables/table.dmi'
-	color = "#ffffff"
+	if(colorable)
+		color = "#ffffff"
 	alpha = 255
 	update_connections(1)
 	queue_icon_update()
@@ -277,7 +279,7 @@
 						I = image(icon, "reinf_[material.icon_base]_[connections[i]]", dir = 1<<(i-1))
 					else
 						I = image(icon, "[material.icon_base]_[connections[i]]", dir = 1<<(i-1))
-					if(material.icon_colour)
+					if(material.icon_colour && colorable)
 						I.color = material.icon_colour
 				AddOverlays(I)
 		else // Table frame
@@ -292,7 +294,8 @@
 				else
 					I = image('icons/obj/structure/tables/table_reinf.dmi', "[reinforced.reinf_icon]_[connections[i]]", dir = 1<<(i-1)) // else use the generic recolorable one
 				if(reinforced.icon_colour && ("reinf_[reinforced.name]" == "[reinforced.reinf_icon]"))
-					I.color = reinforced.icon_colour
+					if(colorable)
+						I.color = reinforced.icon_colour
 				AddOverlays(I)
 
 		if(carpeted)
@@ -328,7 +331,8 @@
 				else
 					I = image(icon, "[material.icon_base]_flip[type]")
 				if(material.icon_colour)
-					I.color = material.icon_colour
+					if(colorable)
+						I.color = material.icon_colour
 			AddOverlays(I)
 			if(material.display_name)
 				if(material.display_name == "comfy")
@@ -346,7 +350,8 @@
 			else
 				I = image('icons/obj/structure/tables/table_reinf.dmi', "[reinforced.reinf_icon]_flip[type]") // else use the generic recolorable one
 			if(reinforced.icon_colour && ("reinf_[reinforced.name]" == "[reinforced.reinf_icon]"))
-				I.color = reinforced.icon_colour
+				if(colorable)
+					I.color = reinforced.icon_colour
 			AddOverlays(I)
 
 		if(carpeted)

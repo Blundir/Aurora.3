@@ -102,8 +102,6 @@ pixel_x = 8;
 	if(pinged)
 		screen = overlay_image(icon, "bell-alert")
 		set_light(1.4, 1, COLOR_CYAN)
-	if(on)
-		AddOverlays("bell-scanline")
 	else
 		screen = overlay_image(icon, "bell-standby")
 		set_light(1.4, 1, COLOR_CYAN)

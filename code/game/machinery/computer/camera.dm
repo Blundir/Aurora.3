@@ -289,13 +289,10 @@
 
 /obj/machinery/computer/security/engineering/terminal
 	name = "engineering camera monitor"
-	icon_state = "computer_mini"
-	icon_broken = "computer_mini-broken"
-	icon_screen = "engines"
-	is_connected = TRUE
-	has_off_keyboards = TRUE
-	can_pass_under = FALSE
-	light_color = LIGHT_COLOR_YELLOW
+	icon = 'icons/obj/machinery/modular_terminal.dmi'
+	icon_state = "console_big_5"
+	icon_screen = "cameras_b"
+	light_color = LIGHT_COLOR_CYAN
 	light_power_on = 1
 
 /obj/machinery/computer/security/engineering/Initialize()

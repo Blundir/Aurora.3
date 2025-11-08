@@ -14,7 +14,7 @@
 	size = 17
 	color = LIGHT_COLOR_CYAN
 	tgui_id = "AtmosAlarmControl"
-	tgui_theme = "hephaestus"
+	tgui_theme = "ntos_terminal" //TODO: change to crtbrown
 
 	var/list/monitored_alarms = list()
 

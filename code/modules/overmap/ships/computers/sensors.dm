@@ -1,8 +1,6 @@
 /obj/machinery/computer/ship/sensors
 	name = "sensors console"
-	icon_screen = "sensors"
-	icon_keyboard = "cyan_key"
-	icon_keyboard_emis = "cyan_key_mask"
+	icon_screen = "helm"
 	light_color = LIGHT_COLOR_CYAN
 	extra_view = 4
 	var/obj/machinery/iff_beacon/identification

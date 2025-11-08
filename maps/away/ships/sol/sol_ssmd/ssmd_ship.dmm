@@ -5999,7 +5999,7 @@
 /obj/machinery/shower{
 	dir = 8
 	},
-/obj/item/soap/cyan_soap,
+/obj/item/soap,
 /turf/simulated/floor/tiled/white,
 /area/ship/ssmd_corvette/bathroom)
 "rRb" = (

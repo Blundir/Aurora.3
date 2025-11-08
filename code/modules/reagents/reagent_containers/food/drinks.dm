@@ -204,7 +204,7 @@ If you add a drink with an empty icon sprite, ensure it is in the same folder, e
 /obj/item/reagent_containers/food/drinks/h_chocolate
 	name = "\improper Red Gaia hot coco"
 	desc = "A Mars favorite. Usually dispensed at a temperature hotter than any human can stand."
-	icon_state = "coffee_vended"
+	icon_state = "hot_coco_vended"
 	item_state = "coffee"
 	trash = /obj/item/trash/coffee
 	drop_sound = 'sound/items/drop/papercup.ogg'

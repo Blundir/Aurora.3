@@ -1425,6 +1425,7 @@
 #include "code\game\objects\structures\railing.dm"
 #include "code\game\objects\structures\safe.dm"
 #include "code\game\objects\structures\sarcophagus.dm"
+#include "code\game\objects\structures\semiotics.dm"
 #include "code\game\objects\structures\signs.dm"
 #include "code\game\objects\structures\simple_doors.dm"
 #include "code\game\objects\structures\statue.dm"

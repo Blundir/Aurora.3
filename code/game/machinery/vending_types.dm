@@ -636,7 +636,7 @@
 	)
 
 /obj/machinery/vending/medical
-	name = "NanoMed Plus"
+	name = "BioPharm Deluxe"
 	desc = "Medical drug dispenser."
 	icon_state = "med"
 	icon_vend = "med-vend"
@@ -710,8 +710,8 @@
 
 
 /obj/machinery/vending/wallmed1
-	name = "\improper NanoMed"
-	desc = "A wall-mounted version of the NanoMed."
+	name = "\improper BioPharm"
+	desc = "A wall-mounted version of the BioPharm."
 	product_ads = "Go save some lives!;The best stuff for your medbay.;Only the finest tools.;Natural chemicals!;This stuff saves lives.;Don't you want some?"
 	icon_state = "wallmed"
 	req_access = list(ACCESS_MEDICAL)

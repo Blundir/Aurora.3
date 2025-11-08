@@ -803,6 +803,7 @@
 	desc = "A sealed, cooled container to keep organs from decaying."
 	icon_state = "organcooler"
 	item_state = "redbox"
+	illustration = null
 	max_w_class = WEIGHT_CLASS_NORMAL
 	foldable = FALSE
 	w_class = WEIGHT_CLASS_BULKY

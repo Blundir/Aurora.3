@@ -367,7 +367,7 @@ GLOBAL_LIST_EMPTY(gps_list)
 
 // Spark
 /obj/item/device/gps/stationary/mining_shuttle
-	name = "static GPS (SCCV Spark)"
+	name = "static GPS (CSCSS Spark)"
 	desc = "A static global positioning system helpful for finding your way back to the mining shuttle."
 	icon_state = "gps-min"
 	gps_prefix = "MIN"
@@ -376,24 +376,24 @@ GLOBAL_LIST_EMPTY(gps_list)
 
 // Intrepid
 /obj/item/device/gps/stationary/sccv_intrepid
-	name = "static GPS (SCCV Intrepid)"
-	desc = "A static global positioning system helpful for finding your way back to the SCCV Intrepid."
+	name = "static GPS (CSCSS Intrepid)"
+	desc = "A static global positioning system helpful for finding your way back to the CSCSS Intrepid."
 	icon_state = "gps-com"
 	gps_prefix = "COM"
 	compass_color = "#193A7A"
 	gpstag = "INTREPID"
 
 /obj/item/device/gps/stationary/sccv_canary
-	name = "static GPS (SCCV Canary)"
-	desc = "A static global positioning system helpful for finding your way back to the SCCV Canary."
+	name = "static GPS (CSCSS Canary)"
+	desc = "A static global positioning system helpful for finding your way back to the CSCSS Canary."
 	icon_state = "gps-com"
 	gps_prefix = "COM"
 	compass_color = "#57c5e0"
 	gpstag = "CANARY"
 
 /obj/item/device/gps/stationary/sccv_quark
-	name = "static GPS (SCCV Quark)"
-	desc = "A static global positioning system helpful for finding your way back to the SCCV Quark."
+	name = "static GPS (CSCSS Quark)"
+	desc = "A static global positioning system helpful for finding your way back to the CSCSS Quark."
 	icon_state = "gps-sci"
 	gps_prefix = "SCI"
 	compass_color = "#d691ce"

@@ -2,9 +2,9 @@
 
 /obj/machinery/computer/telecomms/traffic
 	name = "telecommunications traffic control"
-	icon_screen = "computer_generic"
-	icon_keyboard = "green_key"
-	icon_keyboard_emis = "green_key_mask"
+	icon_state = "comm_traffic"
+	icon_screen = "comm_traffic_screen"
+	icon_broken = "comm_traffic_broken"
 	light_color = LIGHT_COLOR_GREEN
 	req_access = list(ACCESS_TCOMSAT)
 

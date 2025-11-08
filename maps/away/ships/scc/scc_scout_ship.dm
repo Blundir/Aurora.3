@@ -20,7 +20,7 @@
 
 /obj/effect/overmap/visitable/ship/scc_scout_ship
 	name = "SCC Scout Ship"
-	class = "SCCV"
+	class = "CSCSS"
 	desc = "A small ship commonly fielded by the Stellar Corporate Conglomerate, the Serendipity-class, Hephaestus-designed and produced. It is supposed to be a small platform, entirely self-sufficient general-purpose scouting and surveying ship, the Serendipity is equipped with both a bluespace and a warp drive and two different engines."
 	icon_state = "corvette"
 	moving_state = "corvette_moving"
@@ -64,7 +64,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/scc_scout_shuttle
 	name = "SCC Scout Shuttle"
-	class = "SCCV"
+	class = "CSCSS"
 	desc = "A standard-sized exploration shuttle manufactured by Hephaestus, the Pathfinder-class is commonly used by the corporations of the SCC. Featuring well-rounded facilities and equipment, the Pathfinder is excellent, albeit pricey, platform. This one appears to be a bit of an older model, perhaps a prototype."
 	shuttle = "SCC Scout Shuttle"
 	icon_state = "intrepid"
